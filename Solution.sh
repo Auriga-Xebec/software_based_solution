@@ -84,6 +84,5 @@ array=()
 for n in $this ;do
     array[${#array[@]}]="$n"
 done
-for index in $array ;do
-    echo $index
-done
+long=len($array)
+
