@@ -1,0 +1,2289 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# ">
+<head>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KBRCBD6');</script>
+<!-- End Google Tag Manager -->
+<meta charset="utf-8" />
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-123347334-1"></script>
+<script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments)};gtag("js", new Date());gtag("config", "UA-123347334-1", {"groups":"default","linker":{"domains":["cyberasd.govcms.gov.au","cyber.gov.au","www.cyber.gov.au","www.cyberasd.govcms.gov.au"]},"anonymize_ip":true,"page_path":location.pathname + location.search + location.hash,"link_attribution":true});gtag('config', 'UA-54970022-1', {'name': 'govcms'}); gtag('govcms.send', 'pageview', {'anonymizeIp': true})</script>
+<link rel="canonical" href="https://www.cyber.gov.au/acsc/view-all-content/alerts" />
+<meta name="Generator" content="Drupal 9 (http://drupal.org) + GovCMS (http://govcms.gov.au)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="shortcut icon" href="/themes/custom/cga/favicon.ico" type="image/vnd.microsoft.icon" />
+
+			<title>View all alerts | Cyber.gov.au</title>
+			<link rel="stylesheet" media="all" href="/sites/default/files/css/css_O7M_7ZUpDAlaOGW1mTASN1mG2AKdkhZbz8P3N0T3KzQ.css" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_mBZqeyyOdxoqNhsRojYgfbqjDP2auzm3jgtJmVpEpLM.css" />
+
+				
+					<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<style>
+
+/* Move to code */
+.au-body a.acsc-ad-block {
+    margin: 10px auto 0 auto;
+    padding: 10px 0 20px 0;
+    font-size: 1em;
+    letter-spacing: 0.04em;
+    display: block;
+    text-decoration: none;
+    flex-grow: 1;
+    max-width: 280px;
+    width: auto;
+}
+
+@media (min-width: 768px) {
+   .paragraph-content .card-group .card:nth-of-type(even) {
+       margin-left: 30px;
+   }
+}
+
+/* Single Content Card 
+.single .fluid-container {
+   padding: 0;
+}
+.single .paragraph-content .card-group .card {
+    width: 100%;
+}
+.single .paragraph-content .card-group .card--content {
+    margin: 0;
+    background: none;
+    padding: 0;
+}
+.single .paragraph-content .card-group .card--content:before {
+  content: "";
+}
+ END */
+
+.align-center {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+/* Footer style update*/
+.authorised-by {
+    color: #fff;
+    font-size: 0.8em;
+    margin: 0.75em 0 0.75em 85px;
+    display: inline-block;
+}
+
+@media screen and (max-width: 768px) {
+   #acsc-hotline-number-footer {
+       margin: 15px auto;
+       text-align: center;
+       width: 100%;
+   }
+
+   .au-body #acsc-footer-social-link-icons {
+       display: flex;
+       margin: 0 auto;
+       width: 225px;
+   }
+
+   .authorised-by {
+       margin: 0.75em 0 3em 0;
+       width: 100%;
+       text-align: center;
+   }
+}
+
+.acsc-social-link:focus img {
+    transform: scale(1.09);
+}
+
+.webform-submission-register-large-organisations-inf-form #recaptchaV3FormSubmitButton {display: block !important;}
+
+.acsc-media-enquiries {
+    background-image: url(/themes/custom/cga/images/icon-media.jpg);
+    background-repeat: no-repeat;
+    background-size: 90px 64px;
+}
+
+blockquote.casestudy {
+    border: 3px solid #00214f;
+    border-radius: 15px;
+    padding: 1.5rem;
+    margin: 2rem 0;
+    background: #f7fbff;
+    line-height: 1rem;
+}
+
+.view-all-content-exposed-operator .view-filters .js-form-item.form-item-title-op, 
+.view-all-content-exposed-operator .view-filters .js-form-item.form-item-body-value-op {float: left;}
+
+.paragraph-content .card-group .card {margin-bottom: 2em;}
+
+.au-body aside .block-block-content .campaignrelatedguides__backto {margin-top:0;}
+
+.view-acsc-downloads a span {display: block;}
+
+.au-grid .navigation .container .block-views-exposed-filter-blocksearch-page-1 #edit-submit-search--2 {height: 46px;}
+
+.webform-submission-contact-us-general-enquiries-add-form select {
+    height: 50px;
+    padding-left: 15px;
+    font-size: 0.8em;
+    color: #333333;
+    border-radius: 6px;
+    border: 1px solid #eae2e9;
+    margin-top: 8px;
+    display: block;
+}
+
+.webform-submission-register-large-organisations-inf-add-form input[type='url'] {
+    height: 50px;
+    padding-left: 15px;
+    font-size: 0.8em;
+    color: #585860;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-radius: 6px;
+    border: 1px solid #eae2e9;
+    margin-top: 8px;
+    display: block;
+    background: #fff;
+    font-family: mr-eaves-xl-modern,roboto,helvetica,sans-serif; 
+}
+
+.partner-hub-show  {display:none;}
+.hub-item .partner-hub-hide {display:none;}
+.hub-item .partner-hub-show {display:block;}
+
+.region-sidebar .views-field-field-image a:hover {
+    outline: 1px solid blue;
+    outline-offset: -3px;
+}
+.block-views-blockacsc-downloads-block-1 {
+   padding-left: 0px !important;
+}
+
+.block-views-blockreport-cyber-alerts-block-1 {
+    width: 100%;
+    margin: 0 auto 25px;
+}
+
+.region.region-sidebar .block-views-blockreport-cyber-alerts-block-1 {
+    width: 280px;
+}
+
+.block-views-blockreport-cyber-alerts-block-1  ul {
+   padding-left: 1em;
+}
+
+.region.region-sidebar .block div {
+    max-width: 100% !important;
+}
+
+#block-acschotline {
+    width: 280px; 
+    margin: 0 auto;
+}
+
+#block-acschotline img {
+    width:100%;
+}
+
+/* Landing page tiles hover & focus state */
+a.landing-tile-link.acsc-landing-tile:hover h2,
+a.landing-tile-link.acsc-landing-tile:focus h2 {
+    text-decoration: underline;
+}
+
+/* Webform email field mismatch error styling */
+input#edit-verify-email-address-mail-2.error {
+   outline-color: #e14465;
+}
+
+.email-match-error {
+   color: #e14465; 
+   padding: 5px 15px; 
+   display: inline-block;
+}
+
+/* END */
+
+.help-service-card {
+  border: 1px solid #f0f0f0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+@media screen and (min-width: 768px) {
+   .help-service-card {
+      flex-wrap: nowrap;
+   }
+}
+
+.help-service-card-image {
+   width: 100%;
+   justify-self: center;
+   align-self: center;
+   text-align: center;
+   padding: 0.5rem;
+}
+
+.help-service-card-info {
+  width: 100%;
+  padding: 0.5rem;
+}
+
+@media screen and (min-width: 768px) {
+   .help-service-card {
+        flex-wrap: nowrap;
+   }
+
+   .help-service-card-info {
+        width: 75%;
+   }
+}
+
+.report-cyber-downloadlinks {
+  background-size: 80px 60px;
+  padding: 20px 20px 20px 100px;
+  min-height: 90px;
+  background-image: url('/themes/custom/cga/images/icon-g-white.jpg');
+  background-repeat: no-repeat;
+  background-size: 60px 45px;
+  border: 4px solid #7dc68f;
+  border-radius: 6px;
+  background-position: 10px;
+  padding: 20px 20px 20px 70px;
+  width: 288px;
+  margin: 25px auto
+}
+
+.field-content .acsc-title-banner .report-cyber-banner-subline-one {
+   font-size: 1.5em;
+   margin-top: -10px;
+}
+
+.field-content .acsc-title-banner .report-cyber-banner-subline-two {
+    top: 110px;
+}
+
+.report-cyber-downloadlinks li {
+   list-style-type: none;
+}
+
+.report-cyber-downloadlinks ul {
+   padding-left: 0px;
+}
+
+.field--type-text-with-summary .report-cyber-downloadlinks ul {
+   margin-top: 0px;
+   margin-left: 10px;
+}
+
+.acsc-h2-cyber-resources {
+  font-weight: 800;
+  color: #7dc68f;
+}
+
+ /* Style the buttons that are used to open and close the accordion panel */
+.accordion-header {
+  cursor: pointer;
+  padding: 10px;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  width: 100%;
+  display: inline-block;
+}
+
+.accordion-list{
+   list-style-image: url('/sites/default/files/2020-12/arrow-angle-pointing-to-right.png');
+}
+
+.accordion-list li.down_arrow_active{
+   list-style-image: url('/sites/default/files/2020-12/arrow-angle-pointing-to-down.png');
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion-header:hover {
+  background-color: #f9fafc;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.accordion-panel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+} 
+
+div.view-id-report_cyber_alerts_side_bar div.view-content {
+  margin-left: auto;
+}
+
+@media screen and (min-width: 768px) {
+   div.view-id-report_cyber_alerts_side_bar div.view-content {
+      margin-left: -50px;
+   }
+}
+
+.table-responsive .contact-numbers, .table-responsive .contact-numbers td {
+   border: 0px;
+}
+
+.assistance-card td {
+  border: 0px;
+  color: white;
+}
+
+.assistance-card td p {
+   margin: 0px;
+   padding: 0px;
+}
+
+.assistance-card-icon {
+  text-align: center;
+}
+
+.assistance-card-triplezero {
+  background-color:  #c20e1a;
+}
+
+.assistance-card-policeline {
+  background-color:  #224585;
+}
+
+.assistance-card-crimestoppers {
+  background-color: #000000;
+}
+
+.assistance-card-triplezero, 
+.assistance-card-policeline, 
+.assistance-card-crimestoppers {
+   margin: 10px;
+}
+
+.service-assistance-card {
+  text-align: center;
+  font-size: 1.5rem;
+  border-radius: 6px;
+  background-position: 15px;
+  padding: 10px;
+  width: 288px;
+  margin: 20px auto;
+}
+
+.service-assistance-card p {
+   margin: 0px;
+}
+
+.card-beyond-blue {
+  border: 4px solid #7092be;
+}
+
+.card-lifeline {
+  border: 4px solid #ffc90e;
+}
+
+.card-kidshelpline {
+  border: 4px solid #d1a4d2;
+}
+
+.au-body a.landing-tile-link.acsc-landing-tile { 
+   margin-bottom: 4px; 
+}
+
+@media screen and (min-width: 768px) {
+   .au-body a.landing-tile-link.acsc-landing-tile {
+       width: 366px;
+   }
+}
+
+@media screen and (min-width: 992px) {
+   .au-body a.landing-tile-link.acsc-landing-tile {
+       width: 400px;
+   }
+}
+
+@media (min-width: 678px) {
+   .block-views-blocklanding-page-tiles-block-1 .views-row,
+   .block-views-blocklanding-page-tiles-block-2 .views-row,
+   .block-views-blocklanding-page-tiles-block-3 .views-row,
+   .block-views-blocklanding-page-tiles-block-4 .views-row {
+       margin-right: 10px;
+   }
+}
+
+.acsc-feature-block-image img.min-768 {
+	display: none;
+}
+
+.acsc-feature-block-image img.min-992 {
+	display: none;
+}
+
+.acsc-feature-block-text {
+	padding-bottom: 35px;
+}
+
+.acsc-feature-block-text h2 {
+	padding-top: 35px;
+}
+
+.acsc-feature-block-text ul.acsc-feature-block-text-ul {
+	margin-top: 15px;
+}
+
+@media screen and (min-width: 768px) {
+   .acsc-feature-block-image img.max-768 {
+	display: none;
+   }
+
+  .acsc-feature-block-image img.min-768 {
+	display: block;
+   }
+
+  .acsc-feature-block {
+       min-height: 300px;  
+   }
+
+   .acsc-feature-block-image {
+        float: left;
+       width: 47%;
+       max-height: 280px;
+       overflow: hidden;
+   }
+
+   .acsc-feature-block-text {
+        width: 52%;
+        float: right;
+   }
+
+   .acsc-feature-block-text h2 {
+	padding-top: 10px;
+        padding-left: 10px;
+   }
+   .acsc-feature-block-text p {
+	margin-top: 5px;
+        padding: 10px;
+   }
+
+   .acsc-feature-block-text ul.acsc-feature-block-text-ul {
+	margin-top: 5px;
+   }
+}
+
+@media screen and (min-width: 992px) {
+  .acsc-feature-block-image img.min-768 {
+	display: none;
+   }
+
+  .acsc-feature-block-image img.min-992 {
+	display: block;
+   }
+
+   .acsc-feature-block-text ul.acsc-feature-block-text-ul {
+	margin-top: 15px;
+   }
+}
+
+@media screen and (max-width: 768px) {
+   .au-body a.acsc-audience-grey-iandf,
+   .au-body a.acsc-audience-grey-sandmb,
+   .au-body a.acsc-audience-grey-loandi,
+   .au-body a.acsc-audience-grey-g {
+      background-size: 28px auto;
+   }
+
+   .field-content .acsc-title-banner .report-cyber-banner-subline-two {
+      top: 65px;
+   }
+}
+</style>
+				</head>
+				<body
+					data-barba="wrapper">
+										<a href="#main-content" class="visually-hidden focusable">
+						Skip to main content
+					</a>
+					
+					  <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    <div class="au-body au-grid layout-container">
+	<div class="loading"></div>
+		
+
+
+<header class="au-header au-body au-body--alt au-header--alt" role="banner">
+	<div class="container">
+		<div class="row header--vertical-align">
+			<div class="logo col-sm-6">
+					<div class="region region-logo">
+		<div id="block-newheaderlogos" class="block block-block-content block-block-content3c85c816-ee97-4559-ab41-b14ad8a1470f">
+	
+		
+			
+						<div class="field field--name-body field--type-text-with-summary field--label-hidden field__item"><div id="acsc-new-banner-logo"><span class="hidden">Australian Government - Australian cyber security centre</span><a href="/" title="Home"><img alt="Australian cyber security centre crest and logo" src="/themes/custom/cga/images/acsc-au-asd-2-2.png" /></a></div>
+</div>
+			
+	</div>
+<div id="block-cga-sitebranding" class="block block-system block-system-branding-block">
+	
+		
+				
+</div>
+
+	</div>
+
+			</div>
+			<div class="search col-sm-6">
+					<div class="region region-search">
+		<div id="block-mobilemenutoggle" class="block block-block-content block-block-content6f1fa303-19c5-4130-b12e-3fb8459842ac">
+	
+		
+			
+						<div class="field field--name-body field--type-text-with-summary field--label-hidden field__item"><div id="mobile-megamenu-toggle"><span class="toggle-button"><button aria-controls="main-nav-default" class="main-nav-toggle toggle-open">Menu</button> </span></div>
+</div>
+			
+	</div>
+<div id="block-reportcyberheader" class="block block-block-content block-block-content409d7259-643c-48b5-a4f2-27eb0a2436ec">
+	
+		
+			
+						<div class="field field--name-body field--type-text-with-summary field--label-hidden field__item"><div id="acsc-header-report-cyber"><a class="reportcyber" href="/acsc/report" title="Report cybercrimes and security incidents at ReportCyber"><span class="acsc-header-text">Report</span></a></div>
+</div>
+			
+	</div>
+<div class="views-exposed-form block block-views block-views-exposed-filter-blocksearch-page-1" data-drupal-selector="views-exposed-form-search-page-1" id="block-exposedformsearchpage-1">
+	
+		
+			<form region="search" action="/search" method="get" id="views-exposed-form-search-page-1" accept-charset="UTF-8">
+  <div class="js-form-item form-item js-form-type-textfield form-item-keys js-form-item-keys">
+      <label for="edit-keys">Search</label>
+        <input placeholder="Search" data-drupal-selector="edit-keys" type="text" id="edit-keys" name="keys" value="" size="30" maxlength="128" class="form-text" />
+
+        </div>
+<div data-drupal-selector="edit-actions" class="form-actions js-form-wrapper form-wrapper" id="edit-actions--2"><input data-drupal-selector="edit-submit-search" type="submit" id="edit-submit-search" value="Search" class="button js-form-submit form-submit" />
+</div>
+
+
+</form>
+
+	</div>
+<div id="block-contactusheader" class="block block-block-content block-block-content788325b1-89e4-4f13-81b2-f59259b2bc3d">
+	
+		
+			
+						<div class="field field--name-body field--type-text-with-summary field--label-hidden field__item"><div id="acsc-contact-header">
+<p><a href="/contact">Contact us</a></p>
+</div>
+</div>
+			
+	</div>
+<div id="block-loginlinkblock" class="block block-block-content block-block-content2b862929-9081-4ff8-b9b3-a4f358d7a46d">
+	
+		
+			
+						<div class="field field--name-body field--type-text-with-summary field--label-hidden field__item"><p><a href="https://partners.cyber.gov.au" title="Login to the ACSC partner portal">Portal login</a></p>
+</div>
+			
+	</div>
+
+	</div>
+
+			</div>
+		</div>
+	</div>
+			<div class="navigation">
+			<div class="container">
+					<div class="region region-navigation">
+		<nav role="navigation" aria-labelledby="block-megamenu-menu" id="block-megamenu">
+            
+  <h2 class="visually-hidden" id="block-megamenu-menu">Megamenu</h2>
+  
+
+        
+
+							<ul region="navigation" class="au-link-listmenumenu-level-0">
+																							<li class="menu-item menu-item-level-0 menu-item--expanded">
+						
+																						<a href="/acsc/individuals-and-families" data-drupal-link-system-path="node/833">Individuals &amp; families</a>
+							
+																						<div class="menu-item__sub-menu">
+																			<div class="menu-item__extra">
+																							<div class="menu-item__extra-title">Individuals and families</div>
+											
+
+											<div class="menu-item__extra-intro">Practical steps to keep yourself and your family secure</div>
+											<div class="menu-item__extra-buttons-group">
+																									<a href=https://www.cyber.gov.au/acsc/individuals-and-families/about-this-section>About this section</a>
+																																			</div>
+										</div>
+																		<div class="menu-item__wrapper">
+																		<ul class="au-link-list menu menu-level-1">
+																									<li class="menu-item menu-item-level-1">
+
+							
+																														<a href="/acsc/individuals-and-families/about-this-section" data-drupal-link-system-path="node/1492">								<svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M22.7118 11.9381H2.99939" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+									<path d="M17.3961 6.59973L22.7121 11.9577L17.3961 17.3157" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+								</svg>
+								<span>About this section</span>
+								</a>
+							
+																					</li>
+																						<li class="menu-item menu-item-level-1">
+
+							
+																														<a href="/acsc/report" data-drupal-link-system-path="node/1814">								<svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M22.7118 11.9381H2.99939" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+									<path d="M17.3961 6.59973L22.7121 11.9577L17.3961 17.3157" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+								</svg>
+								<span>Report a cybercrime</span>
+								</a>
+							
+																					</li>
+																						<li class="menu-item menu-item-level-1">
+
+							
+																														<a href="/acsc/individuals-and-families/step-by-step-guides" data-drupal-link-system-path="node/2830">								<svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M22.7118 11.9381H2.99939" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+									<path d="M17.3961 6.59973L22.7121 11.9577L17.3961 17.3157" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+								</svg>
+								<span>Step-by-Step Guides</span>
+								</a>
+							
+																					</li>
+																						<li class="menu-item menu-item-level-1">
+
+							
+																														<a href="/acsc/individuals-and-families/threats" data-drupal-link-system-path="node/1256">								<svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M22.7118 11.9381H2.99939" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+									<path d="M17.3961 6.59973L22.7121 11.9577L17.3961 17.3157" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+								</svg>
+								<span>Common cyber threats</span>
+								</a>
+							
+																					</li>
+																						<li class="menu-item menu-item-level-1">
+
+							
+																														<a href="/acsc/view-all-content/publications/easy-steps-secure-your-devices-and-accounts" data-drupal-link-system-path="node/2524">								<svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M22.7118 11.9381H2.99939" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+									<path d="M17.3961 6.59973L22.7121 11.9577L17.3961 17.3157" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+								</svg>
+								<span>Easy steps to stay secure</span>
+								</a>
+							
+																					</li>
+																						<li class="menu-item menu-item-level-1">
+
+							
+																														<a href="/acsc/view-all-content/advice/personal-security-guides" data-drupal-link-system-path="node/3347">								<svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M22.7118 11.9381H2.99939" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+									<path d="M17.3961 6.59973L22.7121 11.9577L17.3961 17.3157" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+								</svg>
+								<span>Personal security guides</span>
+								</a>
+							
+																					</li>
+																						<li class="menu-item menu-item-level-1">
+
+							
+																														<a href="/acsc/individuals-and-families/protect-yourself-and-your-family" data-drupal-link-system-path="node/1262">								<svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M22.7118 11.9381H2.99939" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+									<path d="M17.3961 6.59973L22.7121 11.9577L17.3961 17.3157" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+								</svg>
+								<span>Protect yourself and your family</span>
+								</a>
+							
+																					</li>
+																						<li class="menu-item menu-item-level-1">
+
+							
+																														<a href="/acsc/report/recover-and-get-help" data-drupal-link-system-path="node/3392">								<svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M22.7118 11.9381H2.99939" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+									<path d="M17.3961 6.59973L22.7121 11.9577L17.3961 17.3157" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+								</svg>
+								<span>Recover and get help</span>
+								</a>
+							
+																					</li>
+																						<li class="menu-item menu-item-level-1">
+
+							
+																														<a href="/acsc/register/individuals-and-families" data-drupal-link-system-path="node/1601">								<svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M22.7118 11.9381H2.99939" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+									<path d="M17.3961 6.59973L22.7121 11.9577L17.3961 17.3157" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+								</svg>
+								<span>Subscribe to the ACSC alert service</span>
+								</a>
+							
+																					</li>
+																						<li class="menu-item menu-item-level-1 menu-item--last">
+
+							
+																														<a href="/acsc/view-all-content/individuals-and-families" data-drupal-link-system-path="node/1866">								<svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M22.7118 11.9381H2.99939" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+									<path d="M17.3961 6.59973L22.7121 11.9577L17.3961 17.3157" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+								</svg>
+								<span>View all content</span>
+								</a>
+							
+																					</li>
+									</ul>
+				
+									</div>
+															</li>
+																					<li class="menu-item menu-item-level-0 menu-item--expanded">
+						
+																						<a href="/acsc/small-and-medium-businesses" data-drupal-link-system-path="node/834">Small &amp; medium businesses</a>
+							
+																						<div class="menu-item__sub-menu">
+																			<div class="menu-item__extra">
+																							<div class="menu-item__extra-title">Small &amp; medium businesses</div>
+											
+
+											<div class="menu-item__extra-intro">How to protect your business and staff from common cyber threats</div>
+											<div class="menu-item__extra-buttons-group">
+																									<a href=https://www.cyber.gov.au/acsc/small-and-medium-businesses/about-this-section>About this section</a>
+																																			</div>
+										</div>
+																		<div class="menu-item__wrapper">
+																		<ul class="au-link-list menu menu-level-1">
+																									<li class="menu-item menu-item-level-1">
+
+							
+																														<a href="/acsc/small-and-medium-businesses/about-this-section" data-drupal-link-system-path="node/1240">								<svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M22.7118 11.9381H2.99939" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+									<path d="M17.3961 6.59973L22.7121 11.9577L17.3961 17.3157" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+								</svg>
+								<span>About this section</span>
+								</a>
+							
+																					</li>
+																						<li class="menu-item menu-item-level-1">
+
+							
+																														<a href="/acsc/report" data-drupal-link-system-path="node/1814">								<svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M22.7118 11.9381H2.99939" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+									<path d="M17.3961 6.59973L22.7121 11.9577L17.3961 17.3157" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+								</svg>
+								<span>Report a cybercrime</span>
+								</a>
+							
+																					</li>
+																						<li class="menu-item menu-item-level-1">
+
+							
+																														<a href="/acsc/small-and-medium-businesses/step-by-step-guides" data-drupal-link-system-path="node/1323">								<svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M22.7118 11.9381H2.99939" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+									<path d="M17.3961 6.59973L22.7121 11.9577L17.3961 17.3157" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+								</svg>
+								<span>Step-by-Step Guides</span>
+								</a>
+							
+																					</li>
+																						<li class="menu-item menu-item-level-1">
+
+							
+																														<a href="/acsc/small-and-medium-businesses/getting-your-business-back-up-and-running" data-drupal-link-system-path="node/1876">								<svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M22.7118 11.9381H2.99939" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+									<path d="M17.3961 6.59973L22.7121 11.9577L17.3961 17.3157" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+								</svg>
+								<span>Getting your business back up and running</span>
+								</a>
+							
+																					</li>
+																						<li class="menu-item menu-item-level-1">
+
+							
+																														<a href="/acsc/small-and-medium-businesses/protecting-your-business-online" data-drupal-link-system-path="node/1875">								<svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M22.7118 11.9381H2.99939" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+									<path d="M17.3961 6.59973L22.7121 11.9577L17.3961 17.3157" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+								</svg>
+								<span>Protecting your business online</span>
+								</a>
+							
+																					</li>
+																						<li class="menu-item menu-item-level-1">
+
+							
+																														<a href="/acsc/small-and-medium-businesses/quick-wins" data-drupal-link-system-path="node/1324">								<svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M22.7118 11.9381H2.99939" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+									<path d="M17.3961 6.59973L22.7121 11.9577L17.3961 17.3157" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+								</svg>
+								<span>Quick Wins</span>
+								</a>
+							
+																					</li>
+																						<li class="menu-item menu-item-level-1">
+
+							
+																														<a href="/partner-hub/become-a-partner" data-drupal-link-system-path="node/2972">								<svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M22.7118 11.9381H2.99939" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+									<path d="M17.3961 6.59973L22.7121 11.9577L17.3961 17.3157" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+								</svg>
+								<span>Register for products and services</span>
+								</a>
+							
+																					</li>
+																						<li class="menu-item menu-item-level-1">
+
+							
+																														<a href="/acsc/small-and-medium-businesses/securing-your-business-tools" data-drupal-link-system-path="node/1869">								<svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M22.7118 11.9381H2.99939" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+									<path d="M17.3961 6.59973L22.7121 11.9577L17.3961 17.3157" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+								</svg>
+								<span>Securing your business tools</span>
+								</a>
+							
+																					</li>
+																						<li class="menu-item menu-item-level-1">
+
+							
+																														<a href="/acsc/small-and-medium-businesses/acsc-small-business-guide" data-drupal-link-system-path="node/1322">								<svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M22.7118 11.9381H2.99939" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+									<path d="M17.3961 6.59973L22.7121 11.9577L17.3961 17.3157" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+								</svg>
+								<span>Small Business Cyber Security Guide</span>
+								</a>
+							
+																					</li>
+																						<li class="menu-item menu-item-level-1">
+
+							
+																														<a href="/acsc/small-and-medium-businesses/small-business-survey-results" data-drupal-link-system-path="node/2697">								<svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M22.7118 11.9381H2.99939" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+									<path d="M17.3961 6.59973L22.7121 11.9577L17.3961 17.3157" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+								</svg>
+								<span>Small Business Survey results</span>
+								</a>
+							
+																					</li>
+																						<li class="menu-item menu-item-level-1">
+
+							
+																														<a href="https://www.cyber.gov.au/firstnationsresources">								<svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M22.7118 11.9381H2.99939" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+									<path d="M17.3961 6.59973L22.7121 11.9577L17.3961 17.3157" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+								</svg>
+								<span>First Nations business resources</span>
+								</a>
+							
+																					</li>
+																						<li class="menu-item menu-item-level-1 menu-item--last">
+
+							
+																														<a href="/acsc/view-all-content/small-and-medium-businesses" data-drupal-link-system-path="node/1868">								<svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M22.7118 11.9381H2.99939" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+									<path d="M17.3961 6.59973L22.7121 11.9577L17.3961 17.3157" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+								</svg>
+								<span>View all content</span>
+								</a>
+							
+																					</li>
+									</ul>
+				
+									</div>
+															</li>
+																					<li class="menu-item menu-item-level-0 menu-item--expanded">
+						
+																						<a href="/acsc/organisations-and-critical-infrastructure" data-drupal-link-system-path="node/835">Organisations &amp; Critical Infrastructure</a>
+							
+																						<div class="menu-item__sub-menu">
+																			<div class="menu-item__extra">
+																							<div class="menu-item__extra-title">Organisations &amp; Critical Infrastructure</div>
+											
+
+											<div class="menu-item__extra-intro">Understand how to protect your organisation from cyber threats</div>
+											<div class="menu-item__extra-buttons-group">
+																									<a href=https://www.cyber.gov.au/acsc/organisations-and-critical-infrastructure/about-this-section>About this section</a>
+																																			</div>
+										</div>
+																		<div class="menu-item__wrapper">
+																		<ul class="au-link-list menu menu-level-1">
+																									<li class="menu-item menu-item-level-1">
+
+							
+																														<a href="/acsc/organisations-and-critical-infrastructure/about-this-section" data-drupal-link-system-path="node/1329">								<svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M22.7118 11.9381H2.99939" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+									<path d="M17.3961 6.59973L22.7121 11.9577L17.3961 17.3157" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+								</svg>
+								<span>About this section</span>
+								</a>
+							
+																					</li>
+																						<li class="menu-item menu-item-level-1">
+
+							
+																														<a href="/acsc/report/large-organisations-and-infrastructure" data-drupal-link-system-path="node/2564">								<svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M22.7118 11.9381H2.99939" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+									<path d="M17.3961 6.59973L22.7121 11.9577L17.3961 17.3157" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+								</svg>
+								<span>Report a cyber security incident</span>
+								</a>
+							
+																					</li>
+																						<li class="menu-item menu-item-level-1">
+
+							
+																														<a href="/partner-hub/acsc-partnership-program" data-drupal-link-system-path="node/2975">								<svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M22.7118 11.9381H2.99939" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+									<path d="M17.3961 6.59973L22.7121 11.9577L17.3961 17.3157" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+								</svg>
+								<span>Become an ACSC partner</span>
+								</a>
+							
+																					</li>
+																						<li class="menu-item menu-item-level-1">
+
+							
+																														<a href="/acsc/organisations-and-critical-infrastructure/critical-infrastructure" data-drupal-link-system-path="node/1332">								<svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M22.7118 11.9381H2.99939" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+									<path d="M17.3961 6.59973L22.7121 11.9577L17.3961 17.3157" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+								</svg>
+								<span>Critical infrastructure</span>
+								</a>
+							
+																					</li>
+																						<li class="menu-item menu-item-level-1">
+
+							
+																														<a href="/acsc/organisations-and-critical-infrastructure/large-organisations" data-drupal-link-system-path="node/1333">								<svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M22.7118 11.9381H2.99939" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+									<path d="M17.3961 6.59973L22.7121 11.9577L17.3961 17.3157" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+								</svg>
+								<span>Large organisations</span>
+								</a>
+							
+																					</li>
+																						<li class="menu-item menu-item-level-1">
+
+							
+																														<a href="/acsc/organisations-and-critical-infrastructure/operational-technology" data-drupal-link-system-path="node/1336">								<svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M22.7118 11.9381H2.99939" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+									<path d="M17.3961 6.59973L22.7121 11.9577L17.3961 17.3157" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+								</svg>
+								<span>Operational technology</span>
+								</a>
+							
+																					</li>
+																						<li class="menu-item menu-item-level-1">
+
+							
+																														<a href="/acsc/view-all-content/alerts/large-organisations-and-infrastructure" data-drupal-link-system-path="acsc/view-all-content/alerts/large-organisations-and-infrastructure">								<svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M22.7118 11.9381H2.99939" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+									<path d="M17.3961 6.59973L22.7121 11.9577L17.3961 17.3157" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+								</svg>
+								<span>Alerts</span>
+								</a>
+							
+																					</li>
+																						<li class="menu-item menu-item-level-1">
+
+							
+																														<a href="/acsc/view-all-content/advisories/large-organisations-and-infrastructure" data-drupal-link-system-path="acsc/view-all-content/advisories/large-organisations-and-infrastructure">								<svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M22.7118 11.9381H2.99939" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+									<path d="M17.3961 6.59973L22.7121 11.9577L17.3961 17.3157" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+								</svg>
+								<span>Advisories</span>
+								</a>
+							
+																					</li>
+																						<li class="menu-item menu-item-level-1">
+
+							
+																														<a href="/acsc/view-all-content/programs/large-organisations-and-infrastructure" data-drupal-link-system-path="acsc/view-all-content/programs/large-organisations-and-infrastructure">								<svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M22.7118 11.9381H2.99939" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+									<path d="M17.3961 6.59973L22.7121 11.9577L17.3961 17.3157" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+								</svg>
+								<span>Programs</span>
+								</a>
+							
+																					</li>
+																						<li class="menu-item menu-item-level-1">
+
+							
+																														<a href="/acsc/view-all-content/ism" data-drupal-link-system-path="node/1896">								<svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M22.7118 11.9381H2.99939" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+									<path d="M17.3961 6.59973L22.7121 11.9577L17.3961 17.3157" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+								</svg>
+								<span>Information Security Manual</span>
+								</a>
+							
+																					</li>
+																						<li class="menu-item menu-item-level-1">
+
+							
+																														<a href="/acsc/view-all-content/publications/strategies-mitigate-cyber-security-incidents" data-drupal-link-system-path="node/851">								<svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M22.7118 11.9381H2.99939" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+									<path d="M17.3961 6.59973L22.7121 11.9577L17.3961 17.3157" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+								</svg>
+								<span>Strategies to Mitigate Cyber Security Incidents</span>
+								</a>
+							
+																					</li>
+																						<li class="menu-item menu-item-level-1">
+
+							
+																														<a href="/acsc/view-all-content/essential-eight" data-drupal-link-system-path="node/1932">								<svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M22.7118 11.9381H2.99939" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+									<path d="M17.3961 6.59973L22.7121 11.9577L17.3961 17.3157" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+								</svg>
+								<span>Essential Eight</span>
+								</a>
+							
+																					</li>
+																						<li class="menu-item menu-item-level-1">
+
+							
+																														<a href="/acsc/view-all-content/publications/large-organisations-and-infrastructure" data-drupal-link-system-path="acsc/view-all-content/publications/large-organisations-and-infrastructure">								<svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M22.7118 11.9381H2.99939" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+									<path d="M17.3961 6.59973L22.7121 11.9577L17.3961 17.3157" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+								</svg>
+								<span>Publications</span>
+								</a>
+							
+																					</li>
+																						<li class="menu-item menu-item-level-1">
+
+							
+																														<a href="/acsc/government/cloud-security-guidance" data-drupal-link-system-path="node/2738">								<svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M22.7118 11.9381H2.99939" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+									<path d="M17.3961 6.59973L22.7121 11.9577L17.3961 17.3157" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+								</svg>
+								<span>Cloud security guidance</span>
+								</a>
+							
+																					</li>
+																						<li class="menu-item menu-item-level-1 menu-item--last">
+
+							
+																														<a href="/acsc/view-all-content/large-organisations-and-infrastructure" data-drupal-link-system-path="node/1867">								<svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M22.7118 11.9381H2.99939" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+									<path d="M17.3961 6.59973L22.7121 11.9577L17.3961 17.3157" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+								</svg>
+								<span>View all content</span>
+								</a>
+							
+																					</li>
+									</ul>
+				
+									</div>
+															</li>
+																					<li class="menu-item menu-item-level-0 menu-item--expanded">
+						
+																						<a href="/acsc/government" data-drupal-link-system-path="node/836">Government</a>
+							
+																						<div class="menu-item__sub-menu">
+																			<div class="menu-item__extra">
+																							<div class="menu-item__extra-title">Government</div>
+											
+
+											<div class="menu-item__extra-intro">Strategies to protect your organisation from cyber threats</div>
+											<div class="menu-item__extra-buttons-group">
+																									<a href=https://www.cyber.gov.au/acsc/government/about-this-section>About this section</a>
+																																			</div>
+										</div>
+																		<div class="menu-item__wrapper">
+																		<ul class="au-link-list menu menu-level-1">
+																									<li class="menu-item menu-item-level-1">
+
+							
+																														<a href="/acsc/government/about-this-section" data-drupal-link-system-path="node/1338">								<svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M22.7118 11.9381H2.99939" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+									<path d="M17.3961 6.59973L22.7121 11.9577L17.3961 17.3157" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+								</svg>
+								<span>About this section</span>
+								</a>
+							
+																					</li>
+																						<li class="menu-item menu-item-level-1">
+
+							
+																														<a href="/acsc/report/government" data-drupal-link-system-path="node/2565">								<svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M22.7118 11.9381H2.99939" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+									<path d="M17.3961 6.59973L22.7121 11.9577L17.3961 17.3157" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+								</svg>
+								<span>Report a cyber security incident</span>
+								</a>
+							
+																					</li>
+																						<li class="menu-item menu-item-level-1">
+
+							
+																														<a href="/partner-hub/acsc-partnership-program" data-drupal-link-system-path="node/2975">								<svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M22.7118 11.9381H2.99939" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+									<path d="M17.3961 6.59973L22.7121 11.9577L17.3961 17.3157" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+								</svg>
+								<span>Become an ACSC partner</span>
+								</a>
+							
+																					</li>
+																						<li class="menu-item menu-item-level-1">
+
+							
+																														<a href="/acsc/view-all-content/alerts/government" data-drupal-link-system-path="acsc/view-all-content/alerts/government">								<svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M22.7118 11.9381H2.99939" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+									<path d="M17.3961 6.59973L22.7121 11.9577L17.3961 17.3157" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+								</svg>
+								<span>Alerts</span>
+								</a>
+							
+																					</li>
+																						<li class="menu-item menu-item-level-1">
+
+							
+																														<a href="/acsc/view-all-content/advisories/government" data-drupal-link-system-path="acsc/view-all-content/advisories/government">								<svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M22.7118 11.9381H2.99939" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+									<path d="M17.3961 6.59973L22.7121 11.9577L17.3961 17.3157" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+								</svg>
+								<span>Advisories</span>
+								</a>
+							
+																					</li>
+																						<li class="menu-item menu-item-level-1">
+
+							
+																														<a href="/acsc/view-all-content/programs/government" data-drupal-link-system-path="acsc/view-all-content/programs/government">								<svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M22.7118 11.9381H2.99939" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+									<path d="M17.3961 6.59973L22.7121 11.9577L17.3961 17.3157" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+								</svg>
+								<span>Programs</span>
+								</a>
+							
+																					</li>
+																						<li class="menu-item menu-item-level-1">
+
+							
+																														<a href="/acsc/view-all-content/ism" data-drupal-link-system-path="node/1896">								<svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M22.7118 11.9381H2.99939" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+									<path d="M17.3961 6.59973L22.7121 11.9577L17.3961 17.3157" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+								</svg>
+								<span>Information Security Manual</span>
+								</a>
+							
+																					</li>
+																						<li class="menu-item menu-item-level-1">
+
+							
+																														<a href="/acsc/view-all-content/strategies-to-mitigate-cyber-security-incidents" data-drupal-link-system-path="node/3346">								<svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M22.7118 11.9381H2.99939" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+									<path d="M17.3961 6.59973L22.7121 11.9577L17.3961 17.3157" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+								</svg>
+								<span>Strategies to Mitigate Cyber Security Incidents</span>
+								</a>
+							
+																					</li>
+																						<li class="menu-item menu-item-level-1">
+
+							
+																														<a href="/acsc/view-all-content/essential-eight" data-drupal-link-system-path="node/1932">								<svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M22.7118 11.9381H2.99939" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+									<path d="M17.3961 6.59973L22.7121 11.9577L17.3961 17.3157" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+								</svg>
+								<span>Essential Eight</span>
+								</a>
+							
+																					</li>
+																						<li class="menu-item menu-item-level-1">
+
+							
+																														<a href="/acsc/view-all-content/publications/government" data-drupal-link-system-path="acsc/view-all-content/publications/government">								<svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M22.7118 11.9381H2.99939" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+									<path d="M17.3961 6.59973L22.7121 11.9577L17.3961 17.3157" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+								</svg>
+								<span>Publications</span>
+								</a>
+							
+																					</li>
+																						<li class="menu-item menu-item-level-1 menu-item--expanded">
+
+							
+																						<div class="menu-item__category">Guidance</div>
+							
+																							<div class="menu-item__wrapper">
+																		<ul class="au-link-list menu menu-level-2">
+																									<li class="menu-item menu-item-level-2">
+
+							
+																														<a href="/acsc/government/cloud-security-guidance" data-drupal-link-system-path="node/2738">								<svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M22.7118 11.9381H2.99939" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+									<path d="M17.3961 6.59973L22.7121 11.9577L17.3961 17.3157" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+								</svg>
+								<span>Cloud security guidance</span>
+								</a>
+							
+																					</li>
+																						<li class="menu-item menu-item-level-2">
+
+							
+																														<a href="/acsc/government/cyber-supply-chain-guidance" data-drupal-link-system-path="node/2987">								<svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M22.7118 11.9381H2.99939" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+									<path d="M17.3961 6.59973L22.7121 11.9577L17.3961 17.3157" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+								</svg>
+								<span>Cyber supply chain guidance</span>
+								</a>
+							
+																					</li>
+																						<li class="menu-item menu-item-level-2">
+
+							
+																														<a href="/acsc/government/email-hardening-guidance" data-drupal-link-system-path="node/2981">								<svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M22.7118 11.9381H2.99939" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+									<path d="M17.3961 6.59973L22.7121 11.9577L17.3961 17.3157" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+								</svg>
+								<span>Email hardening guidance</span>
+								</a>
+							
+																					</li>
+																						<li class="menu-item menu-item-level-2">
+
+							
+																														<a href="/acsc/government/gateway-and-cross-domain-solution-guidance" data-drupal-link-system-path="node/2989">								<svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M22.7118 11.9381H2.99939" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+									<path d="M17.3961 6.59973L22.7121 11.9577L17.3961 17.3157" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+								</svg>
+								<span>Gateway and Cross Domain solution guidance</span>
+								</a>
+							
+																					</li>
+																						<li class="menu-item menu-item-level-2">
+
+							
+																														<a href="/acsc/government/governance-guidance" data-drupal-link-system-path="node/2992">								<svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M22.7118 11.9381H2.99939" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+									<path d="M17.3961 6.59973L22.7121 11.9577L17.3961 17.3157" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+								</svg>
+								<span>Governance guidance</span>
+								</a>
+							
+																					</li>
+																						<li class="menu-item menu-item-level-2">
+
+							
+																														<a href="/acsc/government/miscellaneous-guidance" data-drupal-link-system-path="node/2993">								<svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M22.7118 11.9381H2.99939" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+									<path d="M17.3961 6.59973L22.7121 11.9577L17.3961 17.3157" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+								</svg>
+								<span>Miscellaneous guidance</span>
+								</a>
+							
+																					</li>
+																						<li class="menu-item menu-item-level-2">
+
+							
+																														<a href="/acsc/government/operational-technology-guidance" data-drupal-link-system-path="node/2985">								<svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M22.7118 11.9381H2.99939" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+									<path d="M17.3961 6.59973L22.7121 11.9577L17.3961 17.3157" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+								</svg>
+								<span>Operational technology guidance</span>
+								</a>
+							
+																					</li>
+																						<li class="menu-item menu-item-level-2">
+
+							
+																														<a href="/acsc/government/people-centred-guidance" data-drupal-link-system-path="node/2990">								<svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M22.7118 11.9381H2.99939" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+									<path d="M17.3961 6.59973L22.7121 11.9577L17.3961 17.3157" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+								</svg>
+								<span>People-centred guidance</span>
+								</a>
+							
+																					</li>
+																						<li class="menu-item menu-item-level-2">
+
+							
+																														<a href="/acsc/government/remote-working-guidance" data-drupal-link-system-path="node/2984">								<svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M22.7118 11.9381H2.99939" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+									<path d="M17.3961 6.59973L22.7121 11.9577L17.3961 17.3157" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+								</svg>
+								<span>Remote working guidance</span>
+								</a>
+							
+																					</li>
+																						<li class="menu-item menu-item-level-2">
+
+							
+																														<a href="/acsc/government/secure-mobility-guidance" data-drupal-link-system-path="node/2991">								<svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M22.7118 11.9381H2.99939" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+									<path d="M17.3961 6.59973L22.7121 11.9577L17.3961 17.3157" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+								</svg>
+								<span>Secure mobility guidance</span>
+								</a>
+							
+																					</li>
+																						<li class="menu-item menu-item-level-2">
+
+							
+																														<a href="/acsc/government/system-administration-guidance" data-drupal-link-system-path="node/2988">								<svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M22.7118 11.9381H2.99939" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+									<path d="M17.3961 6.59973L22.7121 11.9577L17.3961 17.3157" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+								</svg>
+								<span>System administration guidance</span>
+								</a>
+							
+																					</li>
+																						<li class="menu-item menu-item-level-2">
+
+							
+																														<a href="/acsc/government/system-hardening-guidance" data-drupal-link-system-path="node/2982">								<svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M22.7118 11.9381H2.99939" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+									<path d="M17.3961 6.59973L22.7121 11.9577L17.3961 17.3157" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+								</svg>
+								<span> System hardening guidance</span>
+								</a>
+							
+																					</li>
+																						<li class="menu-item menu-item-level-2">
+
+							
+																														<a href="/acsc/government/system-monitoring-guidance" data-drupal-link-system-path="node/2986">								<svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M22.7118 11.9381H2.99939" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+									<path d="M17.3961 6.59973L22.7121 11.9577L17.3961 17.3157" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+								</svg>
+								<span>System monitoring guidance</span>
+								</a>
+							
+																					</li>
+																						<li class="menu-item menu-item-level-2 menu-item--last">
+
+							
+																														<a href="/acsc/government/web-hardening-guidance" data-drupal-link-system-path="node/2980">								<svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M22.7118 11.9381H2.99939" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+									<path d="M17.3961 6.59973L22.7121 11.9577L17.3961 17.3157" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+								</svg>
+								<span>Web hardening guidance</span>
+								</a>
+							
+																					</li>
+									</ul>
+				
+									</div>
+															</li>
+																						<li class="menu-item menu-item-level-1 menu-item--last">
+
+							
+																														<a href="/acsc/view-all-content/government" data-drupal-link-system-path="node/1865">								<svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M22.7118 11.9381H2.99939" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+									<path d="M17.3961 6.59973L22.7121 11.9577L17.3961 17.3157" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+								</svg>
+								<span>View all content</span>
+								</a>
+							
+																					</li>
+									</ul>
+				
+									</div>
+															</li>
+																					<li class="menu-item menu-item-level-0 menu-item--expanded menu-item--last">
+						
+																						<a href="/learn" title="Learn Hub" data-drupal-link-system-path="node/3330">Learn</a>
+							
+																						<div class="menu-item__sub-menu">
+																			<div class="menu-item__extra">
+																							<div class="menu-item__extra-title">Learn</div>
+											
+
+											<div class="menu-item__extra-intro">Interactive tools and advice to boost your online safety</div>
+											<div class="menu-item__extra-buttons-group">
+																									<a href=https://www.cyber.gov.au/learn>Learn cyber security</a>
+																																					<a href=https://www.cyber.gov.au/acsc/register>Sign up for alerts</a>
+																							</div>
+										</div>
+																		<div class="menu-item__wrapper">
+																		<ul class="au-link-list menu menu-level-1">
+																									<li class="menu-item menu-item-level-1 menu-item--expanded">
+
+							
+																						<div class="menu-item__category">Explore topics</div>
+							
+																							<div class="menu-item__wrapper">
+																		<ul class="au-link-list menu menu-level-2">
+																									<li class="menu-item menu-item-level-2">
+
+							
+																														<a href="/learn/update-devices" data-drupal-link-system-path="node/3332">								<svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M22.7118 11.9381H2.99939" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+									<path d="M17.3961 6.59973L22.7121 11.9577L17.3961 17.3157" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+								</svg>
+								<span>Update your devices</span>
+								</a>
+							
+																					</li>
+																						<li class="menu-item menu-item-level-2">
+
+							
+																														<a href="/learn/backups" data-drupal-link-system-path="node/3338">								<svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M22.7118 11.9381H2.99939" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+									<path d="M17.3961 6.59973L22.7121 11.9577L17.3961 17.3157" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+								</svg>
+								<span>Set up and perform regular backups</span>
+								</a>
+							
+																					</li>
+																						<li class="menu-item menu-item-level-2">
+
+							
+																														<a href="/learn/mfa" data-drupal-link-system-path="node/3339">								<svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M22.7118 11.9381H2.99939" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+									<path d="M17.3961 6.59973L22.7121 11.9577L17.3961 17.3157" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+								</svg>
+								<span>Turn on multi-factor authentication</span>
+								</a>
+							
+																					</li>
+																						<li class="menu-item menu-item-level-2">
+
+							
+																														<a href="/learn/passphrases" data-drupal-link-system-path="node/3340">								<svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M22.7118 11.9381H2.99939" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+									<path d="M17.3961 6.59973L22.7121 11.9577L17.3961 17.3157" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+								</svg>
+								<span>Set secure passphrases</span>
+								</a>
+							
+																					</li>
+																						<li class="menu-item menu-item-level-2">
+
+							
+																														<a href="/learn/scams" data-drupal-link-system-path="node/3341">								<svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M22.7118 11.9381H2.99939" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+									<path d="M17.3961 6.59973L22.7121 11.9577L17.3961 17.3157" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+								</svg>
+								<span>Recognise and report scams</span>
+								</a>
+							
+																					</li>
+																						<li class="menu-item menu-item-level-2 menu-item--last">
+
+							
+																														<a href="/learn/threats" data-drupal-link-system-path="node/3342">								<svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M22.7118 11.9381H2.99939" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+									<path d="M17.3961 6.59973L22.7121 11.9577L17.3961 17.3157" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+								</svg>
+								<span>Watch out for threats</span>
+								</a>
+							
+																					</li>
+									</ul>
+				
+									</div>
+															</li>
+																						<li class="menu-item menu-item-level-1 menu-item--expanded menu-item--last">
+
+							
+																						<div class="menu-item__category">View resources</div>
+							
+																							<div class="menu-item__wrapper">
+																		<ul class="au-link-list menu menu-level-2">
+																									<li class="menu-item menu-item-level-2">
+
+							
+																														<a href="/acsc/view-all-content/glossary" data-drupal-link-system-path="acsc/view-all-content/glossary">								<svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M22.7118 11.9381H2.99939" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+									<path d="M17.3961 6.59973L22.7121 11.9577L17.3961 17.3157" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+								</svg>
+								<span>Glossary</span>
+								</a>
+							
+																					</li>
+																						<li class="menu-item menu-item-level-2">
+
+							
+																														<a href="/learn/resources-library" data-drupal-link-system-path="node/3356">								<svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M22.7118 11.9381H2.99939" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+									<path d="M17.3961 6.59973L22.7121 11.9577L17.3961 17.3157" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+								</svg>
+								<span>Resources library</span>
+								</a>
+							
+																					</li>
+																						<li class="menu-item menu-item-level-2 menu-item--last">
+
+							
+																														<a href="/information/translated" data-drupal-link-system-path="node/3396">								<svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M22.7118 11.9381H2.99939" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+									<path d="M17.3961 6.59973L22.7121 11.9577L17.3961 17.3157" stroke="#116792" stroke-linecap="round" stroke-linejoin="round"/>
+								</svg>
+								<span>Translated Information</span>
+								</a>
+							
+																					</li>
+									</ul>
+				
+									</div>
+															</li>
+									</ul>
+				
+									</div>
+															</li>
+									</ul>
+				
+	<div>
+		<ul class="header-items">
+			<li>
+				<a href="/contact" class="contact">Contact us</a>
+			</li>
+			<li>
+				<a href="/acsc/report" class="reportcrime">Report a cybercrime or cyber security incident</a>
+			</li>
+			<li>
+				<a href="https://partners.cyber.gov.au" title="Login to the ACSC partner portal" class="portal">Portal login</a>
+			</li>
+			<li class="hotline">
+				<div class="menu-hotline">
+					<span id="acsc-hotline-title">Australian Cyber<br/>Security Hotline</span>
+					<p id="acsc-hotline-phone">
+						<a href="tel:1300292371" title="Call the ACSC Cyber Security Hotline">
+							<span id="acsc-hotline-cyber1">1300 CYBER1</span>
+							<span id="acsc-hotline-number">(1300 292 371)</span>
+						</a>
+					</p>
+				</div>
+			</li>
+		</ul>
+	</div>
+
+  </nav>
+
+	</div>
+
+			</div>
+		</div>
+	</header>
+
+			<div class="page-afternav">
+				<div class="region region-afternav">
+		<div class="views-element-container block block-views block-views-blockview-all-content-banner-block-2" id="block-views-block-view-all-content-banner-block-2">
+	
+		
+			<div region="afternav"><div class="view view-view-all-content-banner view-id-view_all_content_banner view-display-id-block_2 js-view-dom-id-12943ddffb383002229a82995a681b15ba86ce406fe045fdb11e4ffe36330d5a">
+	
+		
+			
+			<div class="view-content">
+			    <div class="views-row"><div class="views-field views-field-nothing"><span class="field-content"><div class="acsc-title-banner acsc-title-banner-alerts"><h1>View all alerts</h1></div></span></div></div>
+
+		</div>
+	
+					</div>
+</div>
+
+	</div>
+
+	</div>
+
+		</div>
+		
+	
+	<div
+		data-barba="container" data-barba-namespace="index">
+
+											<div class="container">	<nav class="au-breadcrumbs" role="navigation" aria-label="breadcrumb">
+	<h2 id="breadcrumb" class="visually-hidden">You are here</h2>
+	<ol class="au-link-list au-link-list--inline">
+					<li>
+									<a href="/">Home</a>
+							</li>
+					<li>
+									<a href="/acsc">About the ACSC</a>
+							</li>
+					<li>
+									<a href="/acsc/view-all-content">View all content</a>
+							</li>
+					<li>
+									View all alerts
+							</li>
+			</ol>
+</nav>
+</div>
+					
+									
+				<main role="main" data-barba="container" data-barba-namespace="index">
+			<a id="main-content" tabindex="-1"></a>
+			
+										
+				<div class="container">
+
+											<div class="main-content">
+								<div class="region region-content">
+		<div data-drupal-messages-fallback class="hidden"></div><div id="block-cga-mainpagecontent" class="block block-system block-system-main-block">
+	
+		
+			<div class="views-element-container"><div class="view-all-content-exposed-operator view view-view-all-content view-id-view_all_content view-display-id-page_2 js-view-dom-id-5edc5cbe662d8dc937fbd725dfd776dd1bb1f61a2dd053ee927ed3a59dbb54c1">
+	
+		
+			<div class="view-header">
+			
+						<div class="field field--name-body field--type-text-with-summary field--label-hidden field__item"><p class="acsc-view-filter-summary acsc-content-type acsc-content-type-alert">You can view all our alerts from this page. Use the filters below to filter by audience type, title and summary and the sort options to sort for the most recently updated or published content.</p></div>
+			<h2>Filters</h2>
+<div class="acsc-view-all-filters">
+  <div class="filter-individuals-and-families">
+    <a href="/acsc/view-all-content/alerts/individuals-and-families" title="Show results for individuals and families"><img src="/sites/default/files/2020-05/filter-individuals-and-families.jpg" alt="Show results for individuals and families" /></a>
+  </div>
+  <div class="filter-small-and-medium-businesses">
+    <a href="/acsc/view-all-content/alerts/small-and-medium-businesses" title="Show results for small and medium businesses"><img src="/sites/default/files/2020-05/filter-small-and-medium-businesses.jpg" alt="Show results for small and medium businesses" /></a>
+  </div>
+  <div class="filter-large-organisations-and-infrastructure">
+    <a href="/acsc/view-all-content/alerts/large-organisations-and-infrastructure" title="Show results for large organisations and infrastructure"><img src="/sites/default/files/2020-05/filter-large-organisations-and-infrastructure.jpg" alt="Show results for large organisations and infrastructure" /></a>
+  </div>
+  <div class="filter-government">
+    <a href="/acsc/view-all-content/alerts/government" title="Show results for government"><img src="/sites/default/files/2020-05/filter-government.jpg" alt="Show results for government" /></a>
+  </div>
+</div><span class="acsc-filter-results">Displaying 1 - 50 of 83</span><style>
+.alert-LOW {background-color: #7FC68E; color: #fff; padding: 1px 0.5em; border-radius: 15px;}
+.alert-MEDIUM {background-color: #00B5D0; color: #fff; padding: 1px 0.5em; border-radius: 15px;}
+.alert-HIGH {background-color: #F48047; color: #fff; padding: 1px 0.5em; border-radius: 15px;}
+.alert-CRITICAL {background-color: #E24965; color: #fff; padding: 1px 0.5em; border-radius: 15px;}
+</style>
+		</div>
+				<div class="view-filters">
+			<form class="views-exposed-form" data-drupal-selector="views-exposed-form-view-all-content-page-2" action="/acsc/view-all-content/alerts" method="get" id="views-exposed-form-view-all-content-page-2" accept-charset="UTF-8">
+  <fieldset data-drupal-selector="edit-title-wrapper" id="edit-title-wrapper" class="js-form-item form-item js-form-wrapper form-wrapper">
+      <legend>
+    <span class="fieldset-legend">Search title</span>
+  </legend>
+  <div class="fieldset-wrapper">
+            <div class="js-form-item form-item js-form-type-select form-item-title-op js-form-item-title-op form-no-label">
+      <label for="edit-title-op" class="visually-hidden">Operator</label>
+        
+
+	<select data-drupal-selector="edit-title-op" id="edit-title-op" name="title_op" class="form-select"><option value="=" >Is equal to</option><option value="word"  selected="selected">Contains any word</option><option value="allwords" >Contains all words</option></select>	
+        </div>
+<div class="js-form-item form-item js-form-type-textfield form-item-title js-form-item-title form-no-label">
+        <input data-drupal-selector="edit-title" type="text" id="edit-title" name="title" value="" size="30" maxlength="128" class="form-text" data-drupal-states="{&quot;visible&quot;:[{&quot;:input[name=\u0022title_op\u0022]&quot;:{&quot;value&quot;:&quot;=&quot;}},{&quot;:input[name=\u0022title_op\u0022]&quot;:{&quot;value&quot;:&quot;!=&quot;}},{&quot;:input[name=\u0022title_op\u0022]&quot;:{&quot;value&quot;:&quot;contains&quot;}},{&quot;:input[name=\u0022title_op\u0022]&quot;:{&quot;value&quot;:&quot;word&quot;}},{&quot;:input[name=\u0022title_op\u0022]&quot;:{&quot;value&quot;:&quot;allwords&quot;}},{&quot;:input[name=\u0022title_op\u0022]&quot;:{&quot;value&quot;:&quot;starts&quot;}},{&quot;:input[name=\u0022title_op\u0022]&quot;:{&quot;value&quot;:&quot;not_starts&quot;}},{&quot;:input[name=\u0022title_op\u0022]&quot;:{&quot;value&quot;:&quot;ends&quot;}},{&quot;:input[name=\u0022title_op\u0022]&quot;:{&quot;value&quot;:&quot;not_ends&quot;}},{&quot;:input[name=\u0022title_op\u0022]&quot;:{&quot;value&quot;:&quot;not&quot;}},{&quot;:input[name=\u0022title_op\u0022]&quot;:{&quot;value&quot;:&quot;shorterthan&quot;}},{&quot;:input[name=\u0022title_op\u0022]&quot;:{&quot;value&quot;:&quot;longerthan&quot;}},{&quot;:input[name=\u0022title_op\u0022]&quot;:{&quot;value&quot;:&quot;regular_expression&quot;}}]}" />
+
+        </div>
+
+          </div>
+</fieldset>
+<fieldset data-drupal-selector="edit-body-value-wrapper" id="edit-body-value-wrapper" class="js-form-item form-item js-form-wrapper form-wrapper">
+      <legend>
+    <span class="fieldset-legend">Search content</span>
+  </legend>
+  <div class="fieldset-wrapper">
+            <div class="js-form-item form-item js-form-type-select form-item-body-value-op js-form-item-body-value-op form-no-label">
+      <label for="edit-body-value-op" class="visually-hidden">Operator</label>
+        
+
+	<select data-drupal-selector="edit-body-value-op" id="edit-body-value-op" name="body_value_op" class="form-select"><option value="word"  selected="selected">Contains any word</option><option value="allwords" >Contains all words</option></select>	
+        </div>
+<div class="js-form-item form-item js-form-type-textfield form-item-body-value js-form-item-body-value form-no-label">
+        <input data-drupal-selector="edit-body-value" type="text" id="edit-body-value" name="body_value" value="" size="30" maxlength="128" class="form-text" data-drupal-states="{&quot;visible&quot;:[{&quot;:input[name=\u0022body_value_op\u0022]&quot;:{&quot;value&quot;:&quot;=&quot;}},{&quot;:input[name=\u0022body_value_op\u0022]&quot;:{&quot;value&quot;:&quot;!=&quot;}},{&quot;:input[name=\u0022body_value_op\u0022]&quot;:{&quot;value&quot;:&quot;contains&quot;}},{&quot;:input[name=\u0022body_value_op\u0022]&quot;:{&quot;value&quot;:&quot;word&quot;}},{&quot;:input[name=\u0022body_value_op\u0022]&quot;:{&quot;value&quot;:&quot;allwords&quot;}},{&quot;:input[name=\u0022body_value_op\u0022]&quot;:{&quot;value&quot;:&quot;starts&quot;}},{&quot;:input[name=\u0022body_value_op\u0022]&quot;:{&quot;value&quot;:&quot;not_starts&quot;}},{&quot;:input[name=\u0022body_value_op\u0022]&quot;:{&quot;value&quot;:&quot;ends&quot;}},{&quot;:input[name=\u0022body_value_op\u0022]&quot;:{&quot;value&quot;:&quot;not_ends&quot;}},{&quot;:input[name=\u0022body_value_op\u0022]&quot;:{&quot;value&quot;:&quot;not&quot;}},{&quot;:input[name=\u0022body_value_op\u0022]&quot;:{&quot;value&quot;:&quot;shorterthan&quot;}},{&quot;:input[name=\u0022body_value_op\u0022]&quot;:{&quot;value&quot;:&quot;longerthan&quot;}},{&quot;:input[name=\u0022body_value_op\u0022]&quot;:{&quot;value&quot;:&quot;regular_expression&quot;}}]}" />
+
+        </div>
+
+          </div>
+</fieldset>
+<div class="js-form-item form-item js-form-type-select form-item-sort-by js-form-item-sort-by">
+      <label for="edit-sort-by">Sort by</label>
+        
+
+	<select data-drupal-selector="edit-sort-by" id="edit-sort-by" name="sort_by" class="form-select"><option value="field_date_user_updated_value"  selected="selected">Date updated</option><option value="title" >Title</option></select>	
+        </div>
+<div class="js-form-item form-item js-form-type-select form-item-sort-order js-form-item-sort-order">
+      <label for="edit-sort-order">Order</label>
+        
+
+	<select data-drupal-selector="edit-sort-order" id="edit-sort-order" name="sort_order" class="form-select"><option value="ASC" >Asc</option><option value="DESC"  selected="selected">Desc</option></select>	
+        </div>
+<div data-drupal-selector="edit-actions" class="form-actions js-form-wrapper form-wrapper" id="edit-actions"><input data-drupal-selector="edit-submit-view-all-content" type="submit" id="edit-submit-view-all-content" value="Search" class="button js-form-submit form-submit" />
+</div>
+
+
+</form>
+
+		</div>
+		
+			<div class="view-content">
+			    <div class="views-row"><div class="views-field views-field-body"><div class="field-content"><a href="/acsc/view-all-content/alerts/critical-vulnerability-identified-apple-ios-and-macos" title="Click to read more about Critical vulnerability identified in Apple iOS and macOS">
+<output class="acsc-tile-link">
+<p class="acsc-date">12 Feb 2022 - <strong>Alert status: <span class="alert-CRITICAL">CRITICAL</span></strong></p>
+<p class="acsc-title">Critical vulnerability identified in Apple iOS and macOS</p>
+<p class="acsc-summary">A Remote Code Execution vulnerability has been identified in certain versions of Apple WebKit, affecting iOS and macOS devices. Affected users of these devices should update their devices as soon as possible.</p> 
+</output>
+</a></div></div></div>
+    <div class="views-row"><div class="views-field views-field-body"><div class="field-content"><a href="/acsc/view-all-content/alerts/critical-vulnerability-present-sap-internet-communication-manager" title="Click to read more about Critical vulnerability present in SAP Internet Communication Manager">
+<output class="acsc-tile-link">
+<p class="acsc-date">11 Feb 2022 - <strong>Alert status: <span class="alert-HIGH">HIGH</span></strong></p>
+<p class="acsc-title">Critical vulnerability present in SAP Internet Communication Manager</p>
+<p class="acsc-summary">A vulnerability has been identified in SAP Internet Communication Manager (ICM), a component of many SAP products, which may allow full system takeover. Affected organisations should apply the available security update. </p> 
+</output>
+</a></div></div></div>
+    <div class="views-row"><div class="views-field views-field-body"><div class="field-content"><a href="/acsc/view-all-content/alerts/increased-global-ransomware-threats" title="Click to read more about Increased Global Ransomware Threats ">
+<output class="acsc-tile-link">
+<p class="acsc-date">10 Feb 2022 - <strong>Alert status: <span class="alert-MEDIUM">MEDIUM</span></strong></p>
+<p class="acsc-title">Increased Global Ransomware Threats </p>
+<p class="acsc-summary">In 2021, cybersecurity authorities in the United States, Australia, and the United Kingdom observed an increase in sophisticated, high-impact ransomware incidents against critical infrastructure organizations globally</p> 
+</output>
+</a></div></div></div>
+    <div class="views-row"><div class="views-field views-field-body"><div class="field-content"><a href="/acsc/view-all-content/alerts/remote-code-execution-vulnerability-present-samba-versions-prior-41317" title="Click to read more about Remote code execution vulnerability present in Samba versions prior to 4.13.17">
+<output class="acsc-tile-link">
+<p class="acsc-date">04 Feb 2022 - <strong>Alert status: <span class="alert-HIGH">HIGH</span></strong></p>
+<p class="acsc-title">Remote code execution vulnerability present in Samba versions prior to 4.13.17</p>
+<p class="acsc-summary">A vulnerability (CVE-2021-44142) has been identified in Samba versions  prior to 4.13.17. Exploitation of this vulnerability could allow a malicious cyber actor to perform privileged remote code execution. Affected Australian organisations should apply the available patch, including affected software vendors.</p> 
+</output>
+</a></div></div></div>
+    <div class="views-row"><div class="views-field views-field-body"><div class="field-content"><a href="/acsc/view-all-content/alerts/remote-code-execution-vulnerability-present-sonicwall-sma-100-series-appliances" title="Click to read more about Remote code execution vulnerability present in SonicWall SMA 100 series appliances">
+<output class="acsc-tile-link">
+<p class="acsc-date">19 Jan 2022 - <strong>Alert status: <span class="alert-HIGH">HIGH</span></strong></p>
+<p class="acsc-title">Remote code execution vulnerability present in SonicWall SMA 100 series appliances</p>
+<p class="acsc-summary">A vulnerability (CVE-2021-20038) has been identified in SonicWall SMA 100 series appliances. Exploitation of this vulnerability could allow an unauthenticated malicious cyber actor to perform remote code execution. Affected Australian organisations should apply the available patch.</p> 
+</output>
+</a></div></div></div>
+    <div class="views-row"><div class="views-field views-field-body"><div class="field-content"><a href="/acsc/view-all-content/alerts/phone-and-email-scammers-impersonating-acsc" title="Click to read more about Phone and email scammers impersonating the ACSC">
+<output class="acsc-tile-link">
+<p class="acsc-date">19 Jan 2022 - <strong>Alert status: <span class="alert-MEDIUM">MEDIUM</span></strong></p>
+<p class="acsc-title">Phone and email scammers impersonating the ACSC</p>
+<p class="acsc-summary">The Australian government will NEVER phone you to request access to your computer, or request you to purchase cryptocurrencies or gift cards. If you receive a suspicious phone call, take the caller&#039;s details, hang up and contact the company they claim to represent via official communication channels listed on their website. Never call a number provided by the scammer. </p> 
+</output>
+</a></div></div></div>
+    <div class="views-row"><div class="views-field views-field-body"><div class="field-content"><a href="/acsc/view-all-content/alerts/use-log4j-vulnerabilities-ransomware-activity" title="Click to read more about Use of Log4j vulnerabilities in ransomware activity">
+<output class="acsc-tile-link">
+<p class="acsc-date">23 Dec 2021 - <strong>Alert status: <span class="alert-HIGH">HIGH</span></strong></p>
+<p class="acsc-title">Use of Log4j vulnerabilities in ransomware activity</p>
+<p class="acsc-summary">The ACSC expects an increase in ransomware activity using Log4j as an exploit vector. Malicious actors may take advantage of trivial exploits to impact Australian organisations.</p> 
+</output>
+</a></div></div></div>
+    <div class="views-row"><div class="views-field views-field-body"><div class="field-content"><a href="/acsc/view-all-content/alerts/critical-remote-code-execution-vulnerability-found-log4j2-library" title="Click to read more about Critical remote code execution vulnerability found in the Log4j library">
+<output class="acsc-tile-link">
+<p class="acsc-date">21 Dec 2021 - <strong>Alert status: <span class="alert-CRITICAL">CRITICAL</span></strong></p>
+<p class="acsc-title">Critical remote code execution vulnerability found in the Log4j library</p>
+<p class="acsc-summary">A vulnerability (CVE-2021-44228) exists in certain versions of the Log4j library. A malicious cyber actor could exploit this vulnerability to execute arbitrary code. Australian organisations should apply latest patches immediately where Log4j is known to be used. 
+</p> 
+</output>
+</a></div></div></div>
+    <div class="views-row"><div class="views-field views-field-body"><div class="field-content"><a href="/acsc/view-all-content/alerts/conti-ransomware-incidents-australia" title="Click to read more about Conti ransomware incidents in Australia">
+<output class="acsc-tile-link">
+<p class="acsc-date">10 Dec 2021 - <strong>Alert status: <span class="alert-MEDIUM">MEDIUM</span></strong></p>
+<p class="acsc-title">Conti ransomware incidents in Australia</p>
+<p class="acsc-summary">Multiple Australian organisations have been impacted by Conti ransomware in November and December 2021.</p> 
+</output>
+</a></div></div></div>
+    <div class="views-row"><div class="views-field views-field-body"><div class="field-content"><a href="/acsc/view-all-content/alerts/zoho-manageengine-servicedesk-plus-desktop-central-remote-code-execution-vulnerabilities" title="Click to read more about Zoho ManageEngine ServiceDesk Plus &amp; Desktop Central remote code execution vulnerabilities">
+<output class="acsc-tile-link">
+<p class="acsc-date">08 Dec 2021 - <strong>Alert status: <span class="alert-HIGH">HIGH</span></strong></p>
+<p class="acsc-title">Zoho ManageEngine ServiceDesk Plus &amp; Desktop Central remote code execution vulnerabilities</p>
+<p class="acsc-summary">Vulnerabilities have been identified in certain versions of Zoho ManageEngine ServiceDesk Plus and Desktop Central product suites. Australian organisations using vulnerable Zoho ManageEngine products should apply the available patch.</p> 
+</output>
+</a></div></div></div>
+    <div class="views-row"><div class="views-field views-field-body"><div class="field-content"><a href="/acsc/view-all-content/alerts/iranian-government-sponsored-apt-cyber-actors" title="Click to read more about Iranian Government-Sponsored APT Cyber Actors">
+<output class="acsc-tile-link">
+<p class="acsc-date">17 Nov 2021 - <strong>Alert status: <span class="alert-CRITICAL">CRITICAL</span></strong></p>
+<p class="acsc-title">Iranian Government-Sponsored APT Cyber Actors</p>
+<p class="acsc-summary">FBI and CISA have observed an Iranian government-sponsored APT group that are exploiting vulnerabilities to gain access to systems. The APT group has exploited the same Microsoft Exchange vulnerability in Australia.</p> 
+</output>
+</a></div></div></div>
+    <div class="views-row"><div class="views-field views-field-body"><div class="field-content"><a href="/acsc/view-all-content/alerts/critical-vulnerability-present-certain-versions-microsoft-excel" title="Click to read more about Critical vulnerability present in certain versions of Microsoft Excel">
+<output class="acsc-tile-link">
+<p class="acsc-date">11 Nov 2021 - <strong>Alert status: <span class="alert-CRITICAL">CRITICAL</span></strong></p>
+<p class="acsc-title">Critical vulnerability present in certain versions of Microsoft Excel</p>
+<p class="acsc-summary">Microsoft has identified active exploitation of a vulnerability in Microsoft Excel. Affected Australian organisations should apply the available security update as soon as possible.</p> 
+</output>
+</a></div></div></div>
+    <div class="views-row"><div class="views-field views-field-body"><div class="field-content"><a href="/acsc/view-all-content/alerts/remote-code-execution-vulnerability-present-certain-versions-palo-alto-firewalls-utilising-globalprotect-vpn-component" title="Click to read more about Remote code execution vulnerability present in certain versions of Palo Alto firewalls utilising the GlobalProtect VPN component">
+<output class="acsc-tile-link">
+<p class="acsc-date">11 Nov 2021 - <strong>Alert status: <span class="alert-HIGH">HIGH</span></strong></p>
+<p class="acsc-title">Remote code execution vulnerability present in certain versions of Palo Alto firewalls utilising the GlobalProtect VPN component</p>
+<p class="acsc-summary">A vulnerability has been identified in certain versions of Palo Alto firewalls utilising the GlobalProtect VPN component. Affected Australian organisations should apply the available update as soon as possible.</p> 
+</output>
+</a></div></div></div>
+    <div class="views-row"><div class="views-field views-field-body"><div class="field-content"><a href="/acsc/view-all-content/alerts/active-exploitation-vulnerable-sitecore-experience-platform-content-management-systems" title="Click to read more about Active exploitation of vulnerable Sitecore Experience Platform content management systems">
+<output class="acsc-tile-link">
+<p class="acsc-date">05 Nov 2021 - <strong>Alert status: <span class="alert-CRITICAL">CRITICAL</span></strong></p>
+<p class="acsc-title">Active exploitation of vulnerable Sitecore Experience Platform content management systems</p>
+<p class="acsc-summary">There is active exploitation of a vulnerability occurring in certain versions of Sitecore Experience Platform systems. Affected Australian organisation should apply the available security update.</p> 
+</output>
+</a></div></div></div>
+    <div class="views-row"><div class="views-field views-field-body"><div class="field-content"><a href="/acsc/view-all-content/alerts/critical-vulnerability-present-certain-versions-apple-ios-and-ipados" title="Click to read more about Critical vulnerability present in certain versions of Apple iOS and iPadOS">
+<output class="acsc-tile-link">
+<p class="acsc-date">13 Oct 2021 - <strong>Alert status: <span class="alert-HIGH">HIGH</span></strong></p>
+<p class="acsc-title">Critical vulnerability present in certain versions of Apple iOS and iPadOS</p>
+<p class="acsc-summary">A vulnerability has been identified in certain Apple products which could allow an actor to install malware or perform other actions on a vulnerable device.</p> 
+</output>
+</a></div></div></div>
+    <div class="views-row"><div class="views-field views-field-body"><div class="field-content"><a href="/acsc/view-all-content/alerts/multiple-key-vulnerabilities-identified-microsoft-products" title="Click to read more about Multiple key vulnerabilities identified in Microsoft products">
+<output class="acsc-tile-link">
+<p class="acsc-date">13 Oct 2021 - <strong>Alert status: <span class="alert-HIGH">HIGH</span></strong></p>
+<p class="acsc-title">Multiple key vulnerabilities identified in Microsoft products</p>
+<p class="acsc-summary">Multiple key vulnerabilities were identified in Microsoft’s 12 October 2021 patch release. While all vulnerabilities addressed in this release are important to mitigate the ACSC wishes to highlight several vulnerabilities for priority consideration.</p> 
+</output>
+</a></div></div></div>
+    <div class="views-row"><div class="views-field views-field-body"><div class="field-content"><a href="/acsc/view-all-content/alerts/critical-vulnerability-certain-versions-apache-http-server" title="Click to read more about Critical vulnerability in certain versions of Apache HTTP Server">
+<output class="acsc-tile-link">
+<p class="acsc-date">08 Oct 2021 - <strong>Alert status: <span class="alert-CRITICAL">CRITICAL</span></strong></p>
+<p class="acsc-title">Critical vulnerability in certain versions of Apache HTTP Server</p>
+<p class="acsc-summary">A vulnerability exists in Apache HTTP Server 2.4.49. A cyber actor could exploit this vulnerability to execute arbitrary code. Initial information also indicates that the vulnerability could also be used perform remote code execution under certain configurations. Affected Australian organisations should apply the available patch.</p> 
+</output>
+</a></div></div></div>
+    <div class="views-row"><div class="views-field views-field-body"><div class="field-content"><a href="/acsc/view-all-content/alerts/critical-vulnerability-manageengine-adselfservice-plus-exploited-cyber-actors" title="Click to read more about Critical vulnerability in ManageEngine ADSelfService Plus exploited by cyber actors">
+<output class="acsc-tile-link">
+<p class="acsc-date">24 Sep 2021 - <strong>Alert status: <span class="alert-HIGH">HIGH</span></strong></p>
+<p class="acsc-title">Critical vulnerability in ManageEngine ADSelfService Plus exploited by cyber actors</p>
+<p class="acsc-summary">A vulnerability exists in certain versions of ManageEngine ADSelfService Plus. A cyber actor could exploit this vulnerability to execute arbitrary code, potentially enabling the actor to take control of the vulnerable host. Affected Australian organisations should apply the available security update.</p> 
+</output>
+</a></div></div></div>
+    <div class="views-row"><div class="views-field views-field-body"><div class="field-content"><a href="/acsc/view-all-content/alerts/critical-vulnerability-certain-hikvision-products-ip-cameras" title="Click to read more about Critical vulnerability in certain Hikvision products, IP cameras">
+<output class="acsc-tile-link">
+<p class="acsc-date">22 Sep 2021 - <strong>Alert status: <span class="alert-CRITICAL">CRITICAL</span></strong></p>
+<p class="acsc-title">Critical vulnerability in certain Hikvision products, IP cameras</p>
+<p class="acsc-summary">A critical vulnerability exists in Hikvision products, including IP cameras, which could allow a cyber actor to take full control of the device. Affected Australian customers should apply an appropriate firmware update provided by Hikvision.</p> 
+</output>
+</a></div></div></div>
+    <div class="views-row"><div class="views-field views-field-body"><div class="field-content"><a href="/acsc/view-all-content/alerts/remote-code-execution-vulnerability-present-windows-scripting-engine-microsoft-windows" title="Click to read more about Remote code execution vulnerability present in the Windows Scripting Engine of Microsoft Windows">
+<output class="acsc-tile-link">
+<p class="acsc-date">16 Sep 2021 - <strong>Alert status: <span class="alert-HIGH">HIGH</span></strong></p>
+<p class="acsc-title">Remote code execution vulnerability present in the Windows Scripting Engine of Microsoft Windows</p>
+<p class="acsc-summary">A vulnerability exists in a component of Microsoft Windows. A malicious cyber actor could exploit this vulnerability to execute arbitrary code, potentially enabling the actor to take control of the vulnerable host. Affected Australian customers should apply the security update provided by Microsoft.</p> 
+</output>
+</a></div></div></div>
+    <div class="views-row"><div class="views-field views-field-body"><div class="field-content"><a href="/acsc/view-all-content/alerts/remote-code-execution-vulnerability-present-open-management-infrastructure-affects-certain-microsoft-azure-services" title="Click to read more about Remote code execution vulnerability present in Open Management Infrastructure, affects certain Microsoft Azure services">
+<output class="acsc-tile-link">
+<p class="acsc-date">16 Sep 2021 - <strong>Alert status: <span class="alert-CRITICAL">CRITICAL</span></strong></p>
+<p class="acsc-title">Remote code execution vulnerability present in Open Management Infrastructure, affects certain Microsoft Azure services</p>
+<p class="acsc-summary">A remote code execution vulnerability exists in Open Management Infrastructure, a management agent used in certain Linux-based Microsoft Azure services. Exploitation of this vulnerability could allow a malicious actor to take control of the vulnerable host. Affected organisations should apply the available security update.</p> 
+</output>
+</a></div></div></div>
+    <div class="views-row"><div class="views-field views-field-body"><div class="field-content"><a href="/acsc/view-all-content/alerts/remote-code-execution-vulnerability-present-mshtml-component-microsoft-windows" title="Click to read more about Remote code execution vulnerability present in the MSHTML component of Microsoft Windows">
+<output class="acsc-tile-link">
+<p class="acsc-date">14 Sep 2021 - <strong>Alert status: <span class="alert-HIGH">HIGH</span></strong></p>
+<p class="acsc-title">Remote code execution vulnerability present in the MSHTML component of Microsoft Windows</p>
+<p class="acsc-summary">A vulnerability exists in a component of Microsoft Windows. A malicious cyber actor could exploit this vulnerability to execute arbitrary code, potentially enabling the actor to take control of the vulnerable host. At this current time there is no patch available, affected Australian customers should apply the Microsoft recommended workarounds.</p> 
+</output>
+</a></div></div></div>
+    <div class="views-row"><div class="views-field views-field-body"><div class="field-content"><a href="/acsc/view-all-content/alerts/critical-vulnerabilities-present-certain-versions-apple-ios-macos-and-safari" title="Click to read more about Critical vulnerabilities present in certain versions of Apple iOS, macOS and Safari">
+<output class="acsc-tile-link">
+<p class="acsc-date">14 Sep 2021 - <strong>Alert status: <span class="alert-HIGH">HIGH</span></strong></p>
+<p class="acsc-title">Critical vulnerabilities present in certain versions of Apple iOS, macOS and Safari</p>
+<p class="acsc-summary">Vulnerabilities have been identified in certain versions of Apple iOS, macOS and Safari which could allow an actor to install malware or perform other actions on a vulnerable device or computer.</p> 
+</output>
+</a></div></div></div>
+    <div class="views-row"><div class="views-field views-field-body"><div class="field-content"><a href="/acsc/view-all-content/alerts/suspected-user-credentials-stolen-fortinet-devices-leaked-online" title="Click to read more about Suspected user credentials stolen from FortiNet devices leaked online">
+<output class="acsc-tile-link">
+<p class="acsc-date">10 Sep 2021 - <strong>Alert status: <span class="alert-MEDIUM">MEDIUM</span></strong></p>
+<p class="acsc-title">Suspected user credentials stolen from FortiNet devices leaked online</p>
+<p class="acsc-summary">A malicious cyber actor has leaked a list of suspected user credentials and IP address of the associated FortiNet SSL VPN device the credentials are used for. Organisations should review the patch status and history of internet exposed FortiNet SSL VPN devices and consider performing a password reset for affected users.</p> 
+</output>
+</a></div></div></div>
+    <div class="views-row"><div class="views-field views-field-body"><div class="field-content"><a href="/acsc/view-all-content/alerts/remote-code-execution-vulnerability-present-certain-versions-atlassian-confluence" title="Click to read more about Remote code execution vulnerability present in certain versions of Atlassian Confluence">
+<output class="acsc-tile-link">
+<p class="acsc-date">01 Sep 2021 - <strong>Alert status: <span class="alert-HIGH">HIGH</span></strong></p>
+<p class="acsc-title">Remote code execution vulnerability present in certain versions of Atlassian Confluence</p>
+<p class="acsc-summary">A vulnerability exists in certain self-hosted versions of Atlassian Confluence which could allow a malicious cyber actor to execute arbitrary code. Affected organisations should apply the available patch to mitigate this vulnerability.</p> 
+</output>
+</a></div></div></div>
+    <div class="views-row"><div class="views-field views-field-body"><div class="field-content"><a href="/acsc/view-all-content/alerts/property-related-business-email-compromise-scams-rising-australia" title="Click to read more about Property-related business email compromise scams rising in Australia">
+<output class="acsc-tile-link">
+<p class="acsc-date">30 Aug 2021 - <strong>Alert status: <span class="alert-MEDIUM">MEDIUM</span></strong></p>
+<p class="acsc-title">Property-related business email compromise scams rising in Australia</p>
+<p class="acsc-summary">Cybercriminals are targeting the property and real estate sector to conduct business email compromise scams. All parties involved in the buying, selling and leasing of property should be vigilant when communicating via email, particularly during settlement periods.</p> 
+</output>
+</a></div></div></div>
+    <div class="views-row"><div class="views-field views-field-body"><div class="field-content"><a href="/acsc/view-all-content/alerts/malicious-actors-deploying-gootkit-loader-australian-networks" title="Click to read more about Malicious actors deploying Gootkit Loader on Australian Networks">
+<output class="acsc-tile-link">
+<p class="acsc-date">27 Aug 2021 - <strong>Alert status: <span class="alert-MEDIUM">MEDIUM</span></strong></p>
+<p class="acsc-title">Malicious actors deploying Gootkit Loader on Australian Networks</p>
+<p class="acsc-summary">ACSC has observed an increase of Gootkit JavaScript (JS) Loaders on Australian networks.</p> 
+</output>
+</a></div></div></div>
+    <div class="views-row"><div class="views-field views-field-body"><div class="field-content"><a href="/acsc/view-all-content/alerts/microsoft-exchange-proxyshell-targeting-australia" title="Click to read more about Microsoft Exchange ProxyShell Targeting in Australia">
+<output class="acsc-tile-link">
+<p class="acsc-date">19 Aug 2021 - <strong>Alert status: <span class="alert-HIGH">HIGH</span></strong></p>
+<p class="acsc-title">Microsoft Exchange ProxyShell Targeting in Australia</p>
+<p class="acsc-summary">The ACSC has observed targeting of the Microsoft Exchange ProxyShell vulnerability by Malicious actors.</p> 
+</output>
+</a></div></div></div>
+    <div class="views-row"><div class="views-field views-field-body"><div class="field-content"><a href="/acsc/view-all-content/alerts/vulnerability-affecting-blackberry-qnx-rtos" title="Click to read more about Vulnerability Affecting BlackBerry QNX RTOS">
+<output class="acsc-tile-link">
+<p class="acsc-date">18 Aug 2021 - <strong>Alert status: <span class="alert-HIGH">HIGH</span></strong></p>
+<p class="acsc-title">Vulnerability Affecting BlackBerry QNX RTOS</p>
+<p class="acsc-summary">BlackBerry has disclosed that its QNX Real Time Operating System is affected by a BadAlloc vulnerability - CVE-2021-22156. QNX is the world’s most prevalent real time operating system. </p> 
+</output>
+</a></div></div></div>
+    <div class="views-row"><div class="views-field views-field-body"><div class="field-content"><a href="/acsc/view-all-content/alerts/lockbit-20-ransomware-incidents-australia" title="Click to read more about LockBit 2.0 ransomware incidents in Australia">
+<output class="acsc-tile-link">
+<p class="acsc-date">05 Aug 2021 - <strong>Alert status: <span class="alert-MEDIUM">MEDIUM</span></strong></p>
+<p class="acsc-title">LockBit 2.0 ransomware incidents in Australia</p>
+<p class="acsc-summary">ACSC has observed an increase in reporting of LockBit 2.0 ransomware incidents in Australia.</p> 
+</output>
+</a></div></div></div>
+    <div class="views-row"><div class="views-field views-field-body"><div class="field-content"><a href="/acsc/view-all-content/alerts/sonicwall-devices-targeted-ransomware-utilising-stolen-credentials" title="Click to read more about SonicWall devices targeted with ransomware utilising stolen credentials">
+<output class="acsc-tile-link">
+<p class="acsc-date">03 Aug 2021 - <strong>Alert status: <span class="alert-HIGH">HIGH</span></strong></p>
+<p class="acsc-title">SonicWall devices targeted with ransomware utilising stolen credentials</p>
+<p class="acsc-summary">SonicWall devices are being targeted by a malicious cyber actor as targets for ransomware. The ACSC is aware of likely related activity targeting Australian organisations.</p> 
+</output>
+</a></div></div></div>
+    <div class="views-row"><div class="views-field views-field-body"><div class="field-content"><a href="/acsc/view-all-content/alerts/kaseya-vsa-supply-chain-ransomware-attack" title="Click to read more about Kaseya VSA Supply-Chain Ransomware Attack">
+<output class="acsc-tile-link">
+<p class="acsc-date">12 Jul 2021 - <strong>Alert status: <span class="alert-HIGH">HIGH</span></strong></p>
+<p class="acsc-title">Kaseya VSA Supply-Chain Ransomware Attack</p>
+<p class="acsc-summary">Patch now available for Kaseya VSA platform.</p> 
+</output>
+</a></div></div></div>
+    <div class="views-row"><div class="views-field views-field-body"><div class="field-content"><a href="/acsc/view-all-content/alerts/forgerock-open-am-critical-vulnerability" title="Click to read more about ForgeRock Open AM critical vulnerability">
+<output class="acsc-tile-link">
+<p class="acsc-date">07 Jul 2021 - <strong>Alert status: <span class="alert-HIGH">HIGH</span></strong></p>
+<p class="acsc-title">ForgeRock Open AM critical vulnerability</p>
+<p class="acsc-summary">The ACSC has observed active exploitation of a vulnerability in ForgeRock OpenAM (reported as CVE-2021-35464) against a number of Australian organisations. The ACSC strongly recommends organisations urgently apply available patches or workarounds to mitigate the risk of this vulnerability being exploited.</p> 
+</output>
+</a></div></div></div>
+    <div class="views-row"><div class="views-field views-field-body"><div class="field-content"><a href="/acsc/view-all-content/alerts/cybercriminals-targeting-construction-companies-conduct-email-scams" title="Click to read more about Cybercriminals targeting construction companies to conduct email scams ">
+<output class="acsc-tile-link">
+<p class="acsc-date">06 Jul 2021 - <strong>Alert status: <span class="alert-MEDIUM">MEDIUM</span></strong></p>
+<p class="acsc-title">Cybercriminals targeting construction companies to conduct email scams </p>
+<p class="acsc-summary">Cybercriminals are targeting construction companies to conduct business email compromise scams. All parties to construction projects should be vigilant when emailing about invoices and bank details.</p> 
+</output>
+</a></div></div></div>
+    <div class="views-row"><div class="views-field views-field-body"><div class="field-content"><a href="/acsc/view-all-content/alerts/microsoft-releases-security-updates-microsoft-edge-browser" title="Click to read more about Microsoft Releases Security Updates for Microsoft Edge Browser">
+<output class="acsc-tile-link">
+<p class="acsc-date">30 Jun 2021 - <strong>Alert status: <span class="alert-LOW">LOW</span></strong></p>
+<p class="acsc-title">Microsoft Releases Security Updates for Microsoft Edge Browser</p>
+<p class="acsc-summary">On June 24, 2021 Microsoft released updates for their Edge Browser addressing two vulnerabilities that an attacker could exploit to inject and execute malicious code.</p> 
+</output>
+</a></div></div></div>
+    <div class="views-row"><div class="views-field views-field-body"><div class="field-content"><a href="/acsc/view-all-content/alerts/google-releases-security-updates-chrome-browser" title="Click to read more about Google Releases Security Updates for Chrome Browser">
+<output class="acsc-tile-link">
+<p class="acsc-date">21 Jun 2021 - <strong>Alert status: <span class="alert-HIGH">HIGH</span></strong></p>
+<p class="acsc-title">Google Releases Security Updates for Chrome Browser</p>
+<p class="acsc-summary">On June 17, 2021 Google released Chrome version 91.0.4472.114 for Windows, Mac, and Linux. The patch notes for this version can be viewed at Chrome Release Note. </p> 
+</output>
+</a></div></div></div>
+    <div class="views-row"><div class="views-field views-field-body"><div class="field-content"><a href="/acsc/view-all-content/alerts/critical-vulnerability-discovered-httpsys-microsoft-windows" title="Click to read more about Critical vulnerability discovered in HTTP.SYS in Microsoft Windows">
+<output class="acsc-tile-link">
+<p class="acsc-date">13 May 2021 - <strong>Alert status: <span class="alert-HIGH">HIGH</span></strong></p>
+<p class="acsc-title">Critical vulnerability discovered in HTTP.SYS in Microsoft Windows</p>
+<p class="acsc-summary">A remote code execution vulnerability could enable a malicious cyber actor to compromise vulnerable Microsoft Windows hosts. The ACSC strongly recommends applying available patches.</p> 
+</output>
+</a></div></div></div>
+    <div class="views-row"><div class="views-field views-field-body"><div class="field-content"><a href="/acsc/view-all-content/alerts/multiple-high-severity-vulnerabilities-discovered-exim-mail-server" title="Click to read more about Multiple high severity vulnerabilities discovered in the Exim mail server">
+<output class="acsc-tile-link">
+<p class="acsc-date">10 May 2021 - <strong>Alert status: <span class="alert-HIGH">HIGH</span></strong></p>
+<p class="acsc-title">Multiple high severity vulnerabilities discovered in the Exim mail server</p>
+<p class="acsc-summary">Exim vulnerabilities could enable a malicious cyber actor to compromise vulnerable Exim servers. The ACSC strongly recommends applying available patches.</p> 
+</output>
+</a></div></div></div>
+    <div class="views-row"><div class="views-field views-field-body"><div class="field-content"><a href="/acsc/view-all-content/alerts/avaddon-ransomware" title="Click to read more about Avaddon Ransomware">
+<output class="acsc-tile-link">
+<p class="acsc-date">08 May 2021 - <strong>Alert status: <span class="alert-HIGH">HIGH</span></strong></p>
+<p class="acsc-title">Avaddon Ransomware</p>
+<p class="acsc-summary">Increase in Avaddon ransomware attacks in Australia.</p> 
+</output>
+</a></div></div></div>
+    <div class="views-row"><div class="views-field views-field-body"><div class="field-content"><a href="/acsc/view-all-content/alerts/potential-exploitation-click-studios-passwordstate-software" title="Click to read more about Potential exploitation of Click Studio’s PasswordState software">
+<output class="acsc-tile-link">
+<p class="acsc-date">27 Apr 2021 - <strong>Alert status: <span class="alert-HIGH">HIGH</span></strong></p>
+<p class="acsc-title">Potential exploitation of Click Studio’s PasswordState software</p>
+<p class="acsc-summary">On 24 April 2021, Australian software company Click Studios announced a compromise of the software update process for their enterprise password management software PasswordState, used by organisations in Australia and globally.</p> 
+</output>
+</a></div></div></div>
+    <div class="views-row"><div class="views-field views-field-body"><div class="field-content"><a href="/acsc/view-all-content/alerts/exploitation-pulse-connect-secure-vulnerabilities" title="Click to read more about Exploitation of Pulse Connect Secure Vulnerabilities">
+<output class="acsc-tile-link">
+<p class="acsc-date">21 Apr 2021 - <strong>Alert status: <span class="alert-HIGH">HIGH</span></strong></p>
+<p class="acsc-title">Exploitation of Pulse Connect Secure Vulnerabilities</p>
+<p class="acsc-summary">New advice for mitigating Pulse Connect Secure Virtual Private Network (VPN) vulnerabilities</p> 
+</output>
+</a></div></div></div>
+    <div class="views-row"><div class="views-field views-field-body"><div class="field-content"><a href="/acsc/view-all-content/alerts/exchange-server-critical-vulnerabilities" title="Click to read more about Exchange server critical vulnerabilities">
+<output class="acsc-tile-link">
+<p class="acsc-date">15 Apr 2021 - <strong>Alert status: <span class="alert-CRITICAL">CRITICAL</span></strong></p>
+<p class="acsc-title">Exchange server critical vulnerabilities</p>
+<p class="acsc-summary">On 2 March 2021 Microsoft released information regarding multiple exploits being used to compromise instances of Microsoft Exchange Server. Malicious actors are exploiting these vulnerabilities to compromise Microsoft Exchange servers exposed to the internet, enabling access to email accounts and to enable further compromise of the Exchange server and associated networks.</p> 
+</output>
+</a></div></div></div>
+    <div class="views-row"><div class="views-field views-field-body"><div class="field-content"><a href="/acsc/view-all-content/alerts/apt-exploitation-fortinet-vulnerabilities" title="Click to read more about APT exploitation of Fortinet Vulnerabilities">
+<output class="acsc-tile-link">
+<p class="acsc-date">03 Apr 2021 - <strong>Alert status: <span class="alert-HIGH">HIGH</span></strong></p>
+<p class="acsc-title">APT exploitation of Fortinet Vulnerabilities</p>
+<p class="acsc-summary">Advanced Persistent Threat actors targeting historic Fortinet vulnerabilities</p> 
+</output>
+</a></div></div></div>
+    <div class="views-row"><div class="views-field views-field-body"><div class="field-content"><a href="/acsc/view-all-content/alerts/potential-accellion-file-transfer-appliance-compromise" title="Click to read more about Potential Accellion File Transfer Appliance compromise">
+<output class="acsc-tile-link">
+<p class="acsc-date">25 Feb 2021 - <strong>Alert status: <span class="alert-HIGH">HIGH</span></strong></p>
+<p class="acsc-title">Potential Accellion File Transfer Appliance compromise</p>
+<p class="acsc-summary">ACSC identified Australian organisations may have been impacted the Accellion File Transfer Appliance vulnerability and has provided mitigation recommendations.</p> 
+</output>
+</a></div></div></div>
+    <div class="views-row"><div class="views-field views-field-body"><div class="field-content"><a href="/acsc/view-all-content/alerts/vmware-vcenter-server-plugin-remote-code-execution-vulnerability-cve-2021-21972" title="Click to read more about VMware vCenter Server plugin remote code execution vulnerability (CVE-2021-21972)">
+<output class="acsc-tile-link">
+<p class="acsc-date">25 Feb 2021 - <strong>Alert status: <span class="alert-HIGH">HIGH</span></strong></p>
+<p class="acsc-title">VMware vCenter Server plugin remote code execution vulnerability (CVE-2021-21972)</p>
+<p class="acsc-summary">The Australian Signals Directorate’s Australian Cyber Security Centre (ACSC) advises users of VMware vCenter Server products, including as part of VMware Cloud Foundation, to ensure their systems are promptly patched after the recent disclosure of a new remote code execution vulnerability.</p> 
+</output>
+</a></div></div></div>
+    <div class="views-row"><div class="views-field views-field-body"><div class="field-content"><a href="/acsc/view-all-content/alerts/malware-targeting-centreon-software" title="Click to read more about Malware targeting Centreon software">
+<output class="acsc-tile-link">
+<p class="acsc-date">16 Feb 2021 - <strong>Alert status: <span class="alert-HIGH">HIGH</span></strong></p>
+<p class="acsc-title">Malware targeting Centreon software</p>
+<p class="acsc-summary">ANSSI identifies campaign targeting Centreon system monitoring software</p> 
+</output>
+</a></div></div></div>
+    <div class="views-row"><div class="views-field views-field-body"><div class="field-content"><a href="/acsc/view-all-content/alerts/sonicwall-breach" title="Click to read more about SonicWall Breach">
+<output class="acsc-tile-link">
+<p class="acsc-date">04 Feb 2021 - <strong>Alert status: <span class="alert-HIGH">HIGH</span></strong></p>
+<p class="acsc-title">SonicWall Breach</p>
+<p class="acsc-summary">SonicWall identified an internal systems breach using a zero-day vulnerability within the SMA 100 series 10.x code.</p> 
+</output>
+</a></div></div></div>
+    <div class="views-row"><div class="views-field views-field-body"><div class="field-content"><a href="/acsc/view-all-content/alerts/potential-solarwinds-orion-compromise" title="Click to read more about Potential SolarWinds Orion compromise">
+<output class="acsc-tile-link">
+<p class="acsc-date">25 Jan 2021 - <strong>Alert status: <span class="alert-HIGH">HIGH</span></strong></p>
+<p class="acsc-title">Potential SolarWinds Orion compromise</p>
+<p class="acsc-summary">FireEye identifies global campaign leveraging malicious updates to SolarWinds software.</p> 
+</output>
+</a></div></div></div>
+    <div class="views-row"><div class="views-field views-field-body"><div class="field-content"><a href="/acsc/view-all-content/alerts/sdbbot-targeting-health-sector" title="Click to read more about SDBBot targeting health sector">
+<output class="acsc-tile-link">
+<p class="acsc-date">12 Nov 2020 - <strong>Alert status: <span class="alert-HIGH">HIGH</span></strong></p>
+<p class="acsc-title">SDBBot targeting health sector</p>
+<p class="acsc-summary">The ACSC has observed increased targeting activity against the Australian health sector by actors using the SDBBot Remote Access Tool (RAT).</p> 
+</output>
+</a></div></div></div>
+    <div class="views-row"><div class="views-field views-field-body"><div class="field-content"><a href="/acsc/view-all-content/alerts/sustained-targeting-health-sector" title="Click to read more about Sustained targeting of the health sector">
+<output class="acsc-tile-link">
+<p class="acsc-date">30 Oct 2020 - <strong>Alert status: <span class="alert-HIGH">HIGH</span></strong></p>
+<p class="acsc-title">Sustained targeting of the health sector</p>
+<p class="acsc-summary">The Australian Signals Directorate’s Australian Cyber Security Centre has identified a sustained campaign by sophisticated cybercrime actors impacting the Australian health sector. </p> 
+</output>
+</a></div></div></div>
+
+		</div>
+	
+				<nav class="pager" role="navigation" aria-labelledby="pagination-heading">
+		<h4 class="pager__heading visually-hidden">Pagination</h4>
+		<ul class="pager__items js-pager__items au-link-list au-link-list--inline">
+										<li class="pager__item is-active">
+					Page 1				</li>
+										<li class="pager__item">
+					<a class="au-direction-link au-direction-link--right" href="/acsc/view-all-content/alerts?title_op=word&amp;title=&amp;body_value_op=word&amp;body_value=&amp;sort_by=field_date_user_updated_value&amp;sort_order=DESC&amp;page=1" title="Go to next page" rel="next">
+						<span class="visually-hidden">Next page</span>
+						<span aria-hidden="true">››</span>
+					</a>
+				</li>
+					</ul>
+	</nav>
+
+					</div>
+</div>
+
+	</div>
+<div id="block-sidebarviewallcontent" class="block block-block-content block-block-content7e1828de-7d64-49d4-a20d-3a3ec2fc9ad2">
+	
+		
+			
+						<div class="field field--name-body field--type-text-with-summary field--label-hidden field__item"><ul class="acsc-sidebar-links">
+	<li><a class="acsc-sidebar-link acsc-content-type acsc-content-type-alert" href="/acsc/view-all-content/alerts" title="View all alerts content">Alerts</a></li>
+	<li><a class="acsc-sidebar-link acsc-content-type acsc-content-type-advisories" href="/acsc/view-all-content/advisories" title="View all advisories content">Advisories</a></li>
+	<li><a class="acsc-sidebar-link acsc-content-type acsc-content-type-advice" href="/acsc/view-all-content/advice" title="View all advice content">Advice</a></li>
+	<li><a class="acsc-sidebar-link acsc-content-type acsc-content-type-guidance" href="/acsc/view-all-content/guidance" title="iew all guidance content">Guidance</a></li>
+	<li><a class="acsc-sidebar-link acsc-content-type acsc-content-type-news" href="/acsc/view-all-content/news" title="View all news content">News</a></li>
+	<li><a class="acsc-sidebar-link acsc-content-type acsc-content-type-program" href="/acsc/view-all-content/programs" title="View all programs content">Programs</a></li>
+	<li><a class="acsc-sidebar-link acsc-content-type acsc-content-type-publication" href="/acsc/view-all-content/publications" title="View all publications content">Publications</a></li>
+	<li><a class="acsc-sidebar-link acsc-content-type acsc-content-type-reports-statistics" href="/acsc/view-all-content/reports-and-statistics" title="View all reports and statistics content">Reports and statistics</a></li>
+	<li><a class="acsc-sidebar-link acsc-content-type acsc-content-type-event" href="/acsc/view-all-content/events" title="View all events content">Events</a></li>
+	<li><a class="acsc-sidebar-link acsc-content-type acsc-content-type-media-releases" href="/acsc/view-all-content/media-releases" title="View all media releases content">Media releases</a></li>
+	<li><a class="acsc-sidebar-link acsc-content-type acsc-content-type-glossary" href="/acsc/view-all-content/glossary" title="View all glossary content">Glossary</a></li>
+	<li><a class="acsc-sidebar-link acsc-content-type acsc-content-type-threat" href="/acsc/view-all-content/threats" title="View all threats content">Threats</a></li>
+</ul>
+</div>
+			
+	</div>
+
+	</div>
+
+						</div>
+						
+									</div>
+				<div class="full-width-container">
+					
+				</div>
+
+					</main>
+					<div class="page-admin page-admin-bottom">
+					<div class="region region-admin-bottom">
+		<div id="block-footerblockwithads" class="block block-block-content block-block-content610a2821-15eb-475b-86ee-d69cc8dba839">
+	
+		
+			
+						<div class="field field--name-body field--type-text-with-summary field--label-hidden field__item"><!-- ad block, full width -->
+<div class="acsc-footer-top"><!-- Centre part with no background -->
+<div class="acsc-footer-top-container"><!-- Flex box with 3 items -->
+<div class="acsc-ad-group"><!-- Item 1 with register --><a class="acsc-ad-block" data-entity-substitution="canonical" data-entity-type="node" data-entity-uuid="c3b3974c-21b8-4854-be60-ae9c23d821e8" href="/acsc/register" title="Register for ACSC products and services"><img alt="Icon for becoming a alerts" src="/sites/default/files/2021-11/register-for-services-clear.png" style="float:left;" width="70" /> <span class="acsc-paragraph">Get alerts on new threats</span><span class="acsc-paragraph">Alert Service</span></a> <!-- Item 2 with Become a partner --> <a class="acsc-ad-block acsc-ad-partner" data-entity-substitution="canonical" data-entity-type="node" data-entity-uuid="ce5e8313-49b1-4e54-ba68-a17cd7e3a3e8" href="/partner-hub/overview" title="Partner hub"><img alt="Icon for becoming a partner" src="/sites/default/files/2021-11/handshake_light.png" style="float:left;" width="60" /> <span class="acsc-paragraph">Become an</span><span class="acsc-paragraph">ACSC partner</span></a> <!-- Item 3 with report --> <a class="acsc-ad-block" data-entity-substitution="canonical" data-entity-type="node" data-entity-uuid="1e3a0984-cbb4-4fce-ae05-fe3ac825284c" href="/acsc/report" title="Report a cybercrime or cyber security incident"><img alt="Icon for reporting" src="/sites/default/files/2021-11/icon-report-white-clear.png" style="float:left;" width="80" /><span class="acsc-paragraph">Report a cybercrime or</span><span class="acsc-paragraph">cyber security incident</span></a></div>
+</div>
+</div>
+<!-- footer --><!-- full width -->
+
+<div class="acsc-footer-bottom" style="clear:both;"><!-- centre part with amin background -->
+<div class="acsc-footer-bottom-container">
+<div class="acsc-footer-links-container">
+<div class="acsc-footer-links-block">
+<ul class="acsc-footer-links">
+	<li><a data-entity-substitution="canonical" data-entity-type="node" data-entity-uuid="b7262a78-39f0-4b4a-8f8e-42ce40c4a108" href="/acsc" title="About the ACSC">About the ACSC</a></li>
+	<li><a href="/acsc/view-all-content/news" title="News">News</a> &amp; <a href="/acsc/view-all-content/alerts">Alerts</a></li>
+	<li><a href="/acsc/view-all-content" title="View all content">View all content</a></li>
+	<li><a data-entity-substitution="canonical" data-entity-type="node" data-entity-uuid="eeb6304f-fb95-4850-a46c-5bf71cba1b3c" href="/acsc/contact" title="Contact the ACSC">Contact us</a></li>
+</ul>
+</div>
+
+<div class="acsc-footer-links-block">
+<ul class="acsc-footer-links">
+	<li><a data-entity-substitution="canonical" data-entity-type="node" data-entity-uuid="161d2299-0866-453b-8d1a-16cacc67a9f7" href="/acsc/accessibility" title="Accessibility">Accessibility</a></li>
+	<li><a data-entity-substitution="canonical" data-entity-type="node" data-entity-uuid="2f2f0715-305b-4d5f-9cca-33c915944c09" href="/acsc/copyright" title="Copyright">Copyright</a></li>
+	<li><a data-entity-substitution="canonical" data-entity-type="node" data-entity-uuid="ae0d35f3-6584-49df-b3a3-29c3a7e55eb8" href="/acsc/disclaimer" title="Disclaimer">Disclaimer</a></li>
+	<li><a data-entity-substitution="canonical" data-entity-type="node" data-entity-uuid="a71201fc-8a61-4fa5-b4aa-81c25407b663" href="/acsc/privacy" title="Privacy">Privacy</a></li>
+</ul>
+</div>
+</div>
+
+<div id="acsc-footer-link-home">
+<div id="acsc-hotline-number-footer">
+<h3 id="acsc-hotline-title">Australian Cyber<br />
+Security Hotline</h3>
+
+<p id="acsc-hotline-phone"><a href="tel:1300292371" title="Call the ACSC Cyber Security Hotline"><span id="acsc-hotline-cyber1">1300 CYBER1</span><span id="acsc-hotline-number">(1300 292 371)</span></a></p>
+</div>
+</div>
+
+<div id="acsc-footer-social-link-icons"><a class="acsc-social-link" href="https://twitter.com/CyberGovAU">
+<div data-embed-button="media_entity_embed" data-entity-embed-display="view_mode:media.embed" data-entity-type="media" data-entity-uuid="98ce43e8-6e7c-426f-b0bf-fb9147b3fba8" data-langcode="en" class="align-left embedded-entity"><div>
+  
+  
+						<div class="field field--name-field-media-image field--type-image field--label-hidden field__item">  <img src="/sites/default/files/2020-04/footer-logo-twitter.jpg" width="70" height="70" alt="Logo twitter" loading="lazy" typeof="foaf:Image" />
+
+</div>
+			
+</div>
+</div>
+
+</a><a class="acsc-social-link" href="https://www.facebook.com/cybergovau">
+<div data-embed-button="media_entity_embed" data-entity-embed-display="view_mode:media.embed" data-entity-type="media" data-entity-uuid="744ffd31-e03b-4e5a-8065-a97eb0fd15ed" data-langcode="en" class="align-left embedded-entity"><div>
+  
+  
+						<div class="field field--name-field-media-image field--type-image field--label-hidden field__item">  <img src="/sites/default/files/2020-04/logo-facebook.jpg" width="70" height="70" alt="Logo facebook" loading="lazy" typeof="foaf:Image" />
+
+</div>
+			
+</div>
+</div>
+
+</a><a class="acsc-social-link" href="https://www.youtube.com/channel/UChO_bPg4QOWxSOzH4OYw3Tg/featured">
+<div data-embed-button="media_entity_embed" data-entity-embed-display="view_mode:media.embed" data-entity-type="media" data-entity-uuid="ce200cff-a896-4f8b-8fd5-4de31de72aa9" data-langcode="en" class="align-left embedded-entity"><div>
+  
+  
+						<div class="field field--name-field-media-image field--type-image field--label-hidden field__item">  <img src="/sites/default/files/2020-04/logo-youtube.jpg" width="70" height="70" alt="Logo for YouTube social media" loading="lazy" typeof="foaf:Image" />
+
+</div>
+			
+</div>
+</div>
+
+</a><a class="acsc-social-link" href="https://www.linkedin.com/company/australian-cyber-security-centre/mycompany/">
+<div data-embed-button="media_entity_embed" data-entity-embed-display="view_mode:media.embed" data-entity-type="media" data-entity-uuid="4ef5ad3a-01a2-4bc7-8bcf-3b670cf05748" data-langcode="en" class="align-left embedded-entity"><div>
+  
+  
+						<div class="field field--name-field-media-image field--type-image field--label-hidden field__item">  <img src="/sites/default/files/2021-09/logo-linkedin.jpg" width="70" height="70" alt="LinkedIn logo" loading="lazy" typeof="foaf:Image" />
+
+</div>
+			
+</div>
+</div>
+
+</a><a class="acsc-social-link" href="/acsc/contact/acsc-social-media-community#rss">
+<div data-embed-button="media_entity_embed" data-entity-embed-display="view_mode:media.embed" data-entity-type="media" data-entity-uuid="2a5506dc-6bdb-4096-b615-7fd661052fad" data-langcode="en" class="align-left embedded-entity"><div>
+  
+  
+						<div class="field field--name-field-media-image field--type-image field--label-hidden field__item">  <img src="/sites/default/files/2021-03/footer-logo-rss.png" width="70" height="70" alt="RSS Icon" loading="lazy" typeof="foaf:Image" />
+
+</div>
+			
+</div>
+</div>
+
+</a></div>
+
+<div class="authorised-by">Authorised by the Australian Government, Canberra</div>
+</div>
+</div>
+</div>
+			
+	</div>
+
+	</div>
+
+			</div>
+						
+		<div id="back-to-top">
+			<button title="Back to top" class="back-to-top__link au-direction-link au-direction-link--up">Back to top</button>
+		</div>
+	</div>
+</div>
+
+  </div>
+
+					
+					<script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"","currentPath":"acsc\/view-all-content\/alerts","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"google_analytics":{"account":"UA-123347334-1","trackOutbound":true,"trackMailto":true,"trackDownload":true,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip","trackDomainMode":2,"trackCrossDomains":["cyberasd.govcms.gov.au","cyber.gov.au","www.cyber.gov.au","www.cyberasd.govcms.gov.au"],"trackUrlFragments":true},"pathToTheme":"themes\/custom\/cga","ajaxTrustedUrl":{"\/acsc\/view-all-content\/alerts":true,"\/search":true},"chosen":{"selector":"select:visible","minimum_single":10,"minimum_multiple":10,"minimum_width":0,"use_relative_width":false,"options":{"disable_search":false,"disable_search_threshold":20,"allow_single_deselect":false,"search_contains":true,"placeholder_text_multiple":"Choose some options","placeholder_text_single":"Choose an option","no_results_text":"No results match","max_shown_results":null,"inherit_select_classes":true}},"user":{"uid":0,"permissionsHash":"ab01547512f91658a86e39454fe8b6f4a5a6614472e9f0677fca971b244ed7fe"}}</script>
+<script src="/sites/default/files/js/js_IhkMWSQMbWIH_9zR3DHRKqkm4ih1QZF96Aua3KkZNzY.js"></script>
+
+						<script type="text/javascript">
+if (typeof jQueryLoader === 'function') { jQueryLoader(); }
+
+(function(){
+var acc = document.getElementsByClassName("accordion-header");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    /* Toggle between adding and removing the "active" class,
+    to highlight the button that controls the panel */
+    this.classList.toggle("active");
+    this.parentElement.classList.toggle("down_arrow_active");
+
+    /* Toggle between hiding and showing the active panel */
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+})();
+
+(function ($) { 
+$(document).ready(function () {
+
+  $('body').addClass('jsenabled');
+
+  if( $('.au-page-alerts--error').length ) {
+     $('#eligible-message').detach();
+
+    var str =  $('.au-page-alerts--error').html();
+    if (str.indexOf("date is invalid") >= 0 || str.indexOf('must be on or before') >= 0) {
+       $('.au-page-alerts--error').html('<h3 class="visually-hidden">Error message</h3>The <strong><em class="placeholder">Date and time incident identified</em></strong> date is invalid.<br>Please enter the date and time of the incident, or leave blank if unknown.');
+    }
+  }
+
+  // Webform alert when emails do not match 
+  if($('input#edit-verify-email-address-mail-2.error').length) {
+     $('input#edit-verify-email-address-mail-2.error').parent('.js-form-item').append('<span class="email-match-error">Please enter a matching email address.</span>');
+     $('input#edit-verify-email-address-mail-2.error').prev().focus();
+  }
+
+   // Update incorrect 'title' attribute on time field. Attribute shows seconds which is not captured.
+   $('.js-form-type-webform-time input').attr('title','Time (e.g. hh:mm am)');
+
+})
+})(jQuery);
+
+</script>
+					</body>
+				</html>

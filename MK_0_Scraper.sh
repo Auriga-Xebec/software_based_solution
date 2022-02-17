@@ -15,15 +15,20 @@
 ### 5. awk for each of the above summarys -|-> which will be incorpreated with (tester_looping_files) and find_CVE_Data
 ### 6. Add date function to make new directory per CVE dump......maybe
 
+### ?. Save the CVE into an array
+### ?. Prompt the user if they want more information on a specific CVE.
+### ?. Search the array for the specific CVE --> pass back to NVE API.
+### ?. Print more information than was given in the initial loop.
+
 ### current process flow 
 ### tester_looping_files -calls $1-> find_CVE_Data -calls $1-> pretty_awk_fix --> request_CVE_NVD_API --> raw_CVEs --> website_dump
 
 website_dump(){
-    curl "https://nvd.nist.gov/" > "output.txt" 
+    curl "https://www.cyber.gov.au/acsc/view-all-content/alerts" > "output.txt"
 }
 
 raw_CVEs(){
-    #website_dump
+    website_dump
     cleaned=$(grep -P ">CVE-[[:digit:]]{4}-[0-9]*<" "output.txt" | sed "s/.*\" >//g" | sed "s/<.*//g")
 }
 
@@ -34,6 +39,10 @@ request_CVE_NVD_API(){
     curl "https://services.nvd.nist.gov/rest/json/cve/1.0/$n" | jq . >> "NewCve/$n.txt"
     sleep 0.2s
     done
+}
+
+begin_scraping(){
+    request_CVE_NVD_API
 }
 
 tester_looping_files(){
@@ -52,44 +61,44 @@ find_CVE_Data(){
     #this code will need to loop 20 times, creating an awk formated document for each variable
 
    refrences=$(grep "\"url\": \"" "NewCve/$1" | awk '{$1=$1};1' | sed 's/.*:/:/g' | sed 's/\",//g')
-   CVE_ID=$(cat "NewCve/$1" | jq .result.CVE_Items | jq .[0].cve.CVE_data_meta.ID)
-   CWE_ID=$(cat "NewCve/$1" | jq .result.CVE_Items | jq .[0].cve.problemtype.problemtype_data | jq .[0].description | jq .[0].value)
-   severity=$(cat "NewCve/$1" | jq .result.CVE_Items | jq .[0].impact.baseMetricV3.cvssV3.baseSeverity)
+   CVE_ID=$(cat "NewCve/$1" | jq .result.CVE_Items | jq .[0].cve.CVE_data_meta.ID | sed s'/"//g')
+   CWE_ID=$(cat "NewCve/$1" | jq .result.CVE_Items | jq .[0].cve.problemtype.problemtype_data | jq .[0].description | jq .[0].value | sed s'/"//g')
+   severity=$(cat "NewCve/$1" | jq .result.CVE_Items | jq .[0].impact.baseMetricV3.cvssV3.baseSeverity | sed s'/"//g')
    
+  echo -e "$CVE_ID:$CWE_ID:$severity$refrences" #| tr -d '\n'
 
-   echo -e "$CVE_ID:$CWE_ID:$severity$refrences" | tr -d '\n' > "format/$CVE_ID-$severity"
-   file_format_awk=$CVE_ID-$severity
-   pretty_awk_fix "$file_format_awk"
+}
+
+begin_parsing(){
+    tester_looping_files
 }
 
 pretty_awk_fix(){
-awk 'BEGIN { 
+    awk 'BEGIN { 
       
-    FS=":"; 
       
-    print "_____________________________________________"; 
+    print "__________________________________________________________________________________________"; 
       
-    print "|\033[34mCVE ID\033[0m               |\033[34mCWE ID\033[0m            | \033[34mSeverity\033[0m                                                    |"; 
+    print "|CVE ID                |CWE ID            |Severity                                                    |"; 
       
 } 
       
 { 
       
-    printf("| %-19s | %-16s | %-60s|\n", $1, $2, $3); 
-    printf("| %-100s |\n", $4);
-    printf("| %-100s |\n", $5);
-    printf("| %-100s |\n", $6);
-    printf("| %-100s |\n", $7);
+    printf("| %-19s | %-16s | %-60s|\n", $CVE_ID, $CWE_ID, $severity); 
+    printf("| %-110s |\n", );
       
 } 
       
 END { 
       
-    print("_____________________________________"); 
+    print("__________________________________________________________________________________"); 
       
-}' "format/$1"
+}'
 
 }
 
-tester_looping_files
-              
+
+#begin_scraping
+#begin_parsing
+website_dump
