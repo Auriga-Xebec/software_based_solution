@@ -13,16 +13,16 @@ read selection
 case "$selection" in
 
     1 )
-        echo "you have selected option 1"
+        bash aus_cyber_scrape.sh
     ;;
     2 )
-        echo "you have selected option 2"
+        bash ame_nvd_scraper.sh
     ;;
     3 )
         echo "you have selected option 3"
     ;;
     4 )
-        echo "you have selected option 4"
+        echo "Exit"
         break 
     ;;
     * )
