@@ -24,12 +24,13 @@
 ### tester_looping_files -calls $1-> find_CVE_Data -calls $1-> pretty_awk_fix --> request_CVE_NVD_API --> raw_CVEs --> website_dump
 
 website_dump(){
-    curl "https://www.cyber.gov.au/acsc/view-all-content/alerts" > "output.txt"
+    curl "https://nvd.nist.gov/" > "output.txt"
 }
 
 raw_CVEs(){
     website_dump
     cleaned=$(grep -P ">CVE-[[:digit:]]{4}-[0-9]*<" "output.txt" | sed "s/.*\" >//g" | sed "s/<.*//g")
+    echo "$cleaned"
 }
 
 request_CVE_NVD_API(){
@@ -99,6 +100,7 @@ END {
 }
 
 
-begin_scraping
-begin_parsing
+#begin_scraping
+#begin_parsing
 #website_dump
+raw_CVEs
