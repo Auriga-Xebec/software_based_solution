@@ -99,6 +99,6 @@ END {
 }
 
 
-#begin_scraping
-#begin_parsing
-website_dump
+begin_scraping
+begin_parsing
+#website_dump

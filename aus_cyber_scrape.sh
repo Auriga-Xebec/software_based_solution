@@ -9,18 +9,18 @@
 #https://www.cyber.gov.au/acsc/view-all-content/alerts?title_op=word&title= ####### body_value_op=word&body_value=&sort_by=field_date_user_updated_value&sort_order=DESC
 
 ### can I save this to a variable then call grep on it, to save the unessasary use of files, or maybe use a tempoary file.
-#curl "https://www.cyber.gov.au/acsc/view-all-content/alerts" > ACSC.txt 
+raw_html=$(curl "https://www.cyber.gov.au/acsc/view-all-content/alerts")
 
 scrape_HTML(){
-alert_date=($(cat "ACSC.txt" | grep  "<p class=\"acsc-date\">" | sed 's/.*e\">//' | sed 's/ -.*//' | sed 's/ /-/g' )) ### date of the alert.
-alert_severity=($(cat "ACSC.txt" | grep  "<p class=\"acsc-date\">" | sed 's/.*alert-//' | sed 's/">.*//')) ### severity of the alert.
+alert_date=($(echo "$raw_html" | grep  "<p class=\"acsc-date\">" | sed 's/.*e\">//' | sed 's/ -.*//' | sed 's/ /-/g' )) ### date of the alert.
+alert_severity=($(echo "$raw_html" | grep  "<p class=\"acsc-date\">" | sed 's/.*alert-//' | sed 's/">.*//')) ### severity of the alert.
 IFS_BAK=${IFS} 
 ### change the defualt field separator to a newline
 IFS="
 "
-alert_summary=($(cat "ACSC.txt" | grep   "<p class=\"acsc-summary\">" | sed 's/.*y">//g' | sed 's/<\/p>//g')) ### Summary of the alert.
-alert_elaboration=($(cat "ACSC.txt" | grep   "<p class=\"acsc-title\">" | sed 's/.*e">//g' | sed 's/<\/p>//g'))
-alert_elaboration_url=($(cat "ACSC.txt" | grep   "<p class=\"acsc-title\">" | sed 's/.*e">//g' | sed 's/<\/p>//g' | sed 's/ /-/g'))
+alert_summary=($(echo "$raw_html" | grep   "<p class=\"acsc-summary\">" | sed 's/.*y">//g' | sed 's/<\/p>//g')) ### Summary of the alert.
+alert_elaboration=($(echo "$raw_html" | grep   "<p class=\"acsc-title\">" | sed 's/.*e">//g' | sed 's/<\/p>//g'))
+alert_elaboration_url=($(echo "$raw_html" | grep   "<p class=\"acsc-title\">" | sed 's/.*e">//g' | sed 's/<\/p>//g' | sed 's/ /-/g'))
 
 for x in "${!alert_date[@]}"; do
 if [ ${alert_severity[$x]} = "CRITICAL" ];then
