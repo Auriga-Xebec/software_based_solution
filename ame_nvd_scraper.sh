@@ -95,7 +95,20 @@ CVE_Assigner=$(cat "test_extrap_more_info.txt" | jq .result.CVE_Items | jq .[0].
 CVE_description=$(cat "test_extrap_more_info.txt" | jq .result.CVE_Items | jq .[0].cve.description.description_data | jq .[0].value | sed 's/"//g')
 CVE_CWE=$(cat "test_extrap_more_info.txt" | jq .result.CVE_Items | jq .[0].cve.problemtype.problemtype_data | jq .[0].description | jq .[0].value | sed 's/"//g')
 CVE_refs=$(cat "test_extrap_more_info.txt" | jq .result.CVE_Items | jq .[0].cve.references.reference_data | sed 's/"//g')
-        
+
+impact_vectorString=$(cat "test_extrap_more_info.txt" | jq .result.CVE_Items | jq .[0].impact.baseMetricV3.cvssV3.vectorString | sed 's/"//g')
+impact_attackVector=$(cat "test_extrap_more_info.txt" | jq .result.CVE_Items | jq .[0].impact.baseMetricV3.cvssV3.attackVector | sed 's/"//g' ) 
+impact_attackComplexity=$(cat "test_extrap_more_info.txt" | jq .result.CVE_Items | jq .[0].impact.baseMetricV3.cvssV3.attackComplexity | sed 's/"//g') 
+impact_privilegesRequired=$(cat "test_extrap_more_info.txt" | jq .result.CVE_Items | jq .[0].impact.baseMetricV3.cvssV3.privilegesRequired | sed 's/"//g') 
+impact_userInteraction=$(cat "test_extrap_more_info.txt" | jq .result.CVE_Items | jq .[0].impact.baseMetricV3.cvssV3.userInteraction | sed 's/"//g') 
+
+impact_confidentialityImpact=$(cat "test_extrap_more_info.txt" | jq .result.CVE_Items | jq .[0].impact.baseMetricV3.cvssV3.confidentialityImpact | sed 's/"//g') 
+impact_integrityImpact=$(cat "test_extrap_more_info.txt" | jq .result.CVE_Items | jq .[0].impact.baseMetricV3.cvssV3.integrityImpact | sed 's/"//g') 
+impact_availabilityImpact=$(cat "test_extrap_more_info.txt" | jq .result.CVE_Items | jq .[0].impact.baseMetricV3.cvssV3.availabilityImpact | sed 's/"//g') 
+
+baseSeverity=$(cat "test_extrap_more_info.txt" | jq .result.CVE_Items | jq .[0].impact.baseMetricV3.cvssV3.baseSeverity | sed 's/"//g') 
+
+publishedDate=$(cat "test_extrap_more_info.txt" | jq .result.CVE_Items | jq .[0].publishedDate | sed 's/[A-Z]/ /g' | sed 's/"//g')
+lastModifiedDate=$(cat "test_extrap_more_info.txt" | jq .result.CVE_Items | jq .[0].lastModifiedDate | sed 's/[A-Z]/ /g' | sed 's/"//g') 
 
 
-echo $CVE_refs
