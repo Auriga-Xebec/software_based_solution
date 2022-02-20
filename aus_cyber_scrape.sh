@@ -1,13 +1,5 @@
 #!/bin/bash
 
-#https://www.cyber.gov.au/acsc/view-all-content/alerts?title_op=word&title=hello&body_value_op=word&body_value=&sort_by=field_date_user_updated_value&sort_order=DESC
-#https://www.cyber.gov.au/acsc/view-all-content/alerts?title_op=word&title=crime&body_value_op=word&body_value=&sort_by=field_date_user_updated_value&sort_order=DESC
-#https://www.cyber.gov.au/acsc/view-all-content/alerts?title_op=word&title=IOS&body_value_op=word&body_value=&sort_by=field_date_user_updated_value&sort_order=DESC
-
-
-###Search for a word
-#https://www.cyber.gov.au/acsc/view-all-content/alerts?title_op=word&title= ####### body_value_op=word&body_value=&sort_by=field_date_user_updated_value&sort_order=DESC
-
 ### can I save this to a variable then call grep on it, to save the unessasary use of files, or maybe use a tempoary file.
 raw_html=$(curl "https://www.cyber.gov.au/acsc/view-all-content/alerts")
 

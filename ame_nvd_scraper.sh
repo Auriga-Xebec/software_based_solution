@@ -1,5 +1,7 @@
 #!/bin/bash
 
+### colouring now matches the same as aus cyber scrape
+
 website_dump(){
     curl "https://nvd.nist.gov/" > "output.txt"
 }
@@ -11,17 +13,34 @@ raw_CVEs(){
     #website_dump
     cleaned_CVE=($(grep -P ">CVE-[[:digit:]]{4}-[0-9]*<" "output.txt" | sed "s/.*\" >//g" | sed "s/<.*//g"))
     cleaned_Published=($(grep -P "\d*:\d*:\d*" "output.txt" | awk '{$1=$1};NF'))
-    cleaned_severity=($(grep -P ">[0-9]\.[0-9] [A-ZS]*</a><br/>" "output.txt"| sed "s/.*\">//g" | sed "s/<.*//g"))
+    cleaned_severity=($(grep -P ">[0-9]\.[0-9] [A-ZS]*</a><br/>" "output.txt"| sed "s/.*\">//g" | sed "s/<.*//g" | sed 's/[0-9]\.[0-9] //g'))
+
+    for x in "${!cleaned_severity[@]}"; do
+    if [ ${cleaned_severity[$x]} = "CRITICAL" ];then
+        cleaned_severity[$x]=$(echo -e "\033[31mCRITICAL\e[0m")
+    elif [ ${cleaned_severity[$x]} = "HIGH" ];then
+        cleaned_severity[$x]=$(echo -e "\033[35mHIGH\e[0m")
+    elif [ ${cleaned_severity[$x]} = "MEDIUM" ];then
+        cleaned_severity[$x]=$(echo -e "\033[33mMEDIUM\e[0m")
+    elif [ ${cleaned_severity[$x]} = "LOW" ];then
+        cleaned_severity[$x]=$(echo -e "\033[32mLOW\e[0m")
+    fi
+    done
+
+    
+
+
+
     IFS=${IFS_BAK}
     
     for x in ${!cleaned_CVE[@]};do
     echo -e "    ==========================================================
     | $x | ${cleaned_CVE[$x]} | ${cleaned_Published[$x]}
-         | ${cleaned_severity[$x]} |
+    | ${cleaned_severity[$x]} |
     ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
     done
     
-    read -p "Please enter a number for further information: " selection
+    read -p "Please enter a number for further information or ENTER to exit: " selection
 }
 
 
@@ -49,7 +68,7 @@ cve_more_information(){
     18 | ${cleaned_CVE[18]} ) more_information=(${cleaned_CVE[18]}) ;;
     19 | ${cleaned_CVE[19]} )  more_information=(${cleaned_CVE[19]}) ;;
     CVE-[0-9]*-[0-9]*)  more_information=($selection) ;;
-    
+    * )  more_information="Good bye" ;;
 
     esac
 
@@ -57,6 +76,26 @@ cve_more_information(){
 
 JSON_cve_information_dump(){
     cve_more_information
-    curl "https://services.nvd.nist.gov/rest/json/cve/1.0/$more_information" | jq .
+    if [ "$more_information" = "Good bye" ]; then
+        echo
+    else
+        #more_information=$(curl -s "https://services.nvd.nist.gov/rest/json/cve/1.0/$more_information" | jq .)
+        #echo $more_information
+        curl -s "https://services.nvd.nist.gov/rest/json/cve/1.0/$more_information" | jq . > test_extrap_more_info.txt
+
+        
+    fi
+
 }
-JSON_cve_information_dump
+#JSON_cve_information_dump
+
+
+CVE_ID=$(cat "test_extrap_more_info.txt" | jq .result.CVE_Items | jq .[0].cve.CVE_data_meta.ID | sed 's/"//g')
+CVE_Assigner=$(cat "test_extrap_more_info.txt" | jq .result.CVE_Items | jq .[0].cve.CVE_data_meta.ASSIGNER | sed 's/"//g')
+CVE_description=$(cat "test_extrap_more_info.txt" | jq .result.CVE_Items | jq .[0].cve.description.description_data | jq .[0].value | sed 's/"//g')
+CVE_CWE=$(cat "test_extrap_more_info.txt" | jq .result.CVE_Items | jq .[0].cve.problemtype.problemtype_data | jq .[0].description | jq .[0].value | sed 's/"//g')
+CVE_refs=$(cat "test_extrap_more_info.txt" | jq .result.CVE_Items | jq .[0].cve.references.reference_data | sed 's/"//g')
+        
+
+
+echo $CVE_refs
