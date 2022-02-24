@@ -19,7 +19,7 @@ case "$selection" in
         bash ame_nvd_scraper.sh
     ;;
     3 )
-        echo "you have selected option 3"
+        echo "Pleas"
     ;;
     4 )
         echo "Exit"

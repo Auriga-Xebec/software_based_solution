@@ -4,17 +4,10 @@
 
 website_dump(){
     curl "https://nvd.nist.gov/" > "output.txt"
+    raw_CVEs
 }
 
-raw_CVEs(){
-    IFS_BAK=${IFS} 
-    IFS="
-"
-    #website_dump
-    cleaned_CVE=($(grep -P ">CVE-[[:digit:]]{4}-[0-9]*<" "output.txt" | sed "s/.*\" >//g" | sed "s/<.*//g"))
-    cleaned_Published=($(grep -P "\d*:\d*:\d*" "output.txt" | awk '{$1=$1};NF'))
-    cleaned_severity=($(grep -P ">[0-9]\.[0-9] [A-ZS]*</a><br/>" "output.txt"| sed "s/.*\">//g" | sed "s/<.*//g" | sed 's/[0-9]\.[0-9] //g'))
-
+colour_code_criticality(){
     for x in "${!cleaned_severity[@]}"; do
     if [ ${cleaned_severity[$x]} = "CRITICAL" ];then
         cleaned_severity[$x]=$(echo -e "\033[31mCRITICAL\e[0m")
@@ -26,13 +19,9 @@ raw_CVEs(){
         cleaned_severity[$x]=$(echo -e "\033[32mLOW\e[0m")
     fi
     done
+}
 
-    
-
-
-
-    IFS=${IFS_BAK}
-    
+initial_format_records(){
     for x in ${!cleaned_CVE[@]};do
     echo -e "    ==========================================================
     | $x | ${cleaned_CVE[$x]} | ${cleaned_Published[$x]}
@@ -40,12 +29,31 @@ raw_CVEs(){
     ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
     done
     
-    read -p "Please enter a number for further information or ENTER to exit: " selection
+
+}
+
+raw_CVEs(){
+    IFS_BAK=${IFS} 
+    IFS="
+"
+    #website_dump
+    cleaned_CVE=($(grep -P ">CVE-[[:digit:]]{4}-[0-9]*<" "output.txt" | sed "s/.*\" >//g" | sed "s/<.*//g"))
+    cleaned_Published=($(grep -P "\d*:\d*:\d*" "output.txt" | awk '{$1=$1};NF'))
+    cleaned_severity=($(grep -P ">[0-9]\.[0-9] [A-ZS]*</a><br/>" "output.txt"| sed "s/.*\">//g" | sed "s/<.*//g" | sed 's/[0-9]\.[0-9] //g'))
+
+    IFS=${IFS_BAK}
+
+    colour_code_criticality
+    initial_format_records
+    cve_more_information
+
 }
 
 
 cve_more_information(){
-    raw_CVEs
+    
+     read -p "Please enter a number for further information or ENTER to exit: " selection
+
     case "$selection" in
     0 | ${cleaned_CVE[0]} ) more_information=(${cleaned_CVE[0]}) ;;
     1 | ${cleaned_CVE[1]} ) more_information=(${cleaned_CVE[1]}) ;;
@@ -72,22 +80,23 @@ cve_more_information(){
 
     esac
 
+JSON_cve_information_dump
+
+
 }
 
 JSON_cve_information_dump(){
-    cve_more_information
+    
     if [ "$more_information" = "Good bye" ]; then
         echo
     else
-        #more_information=$(curl -s "https://services.nvd.nist.gov/rest/json/cve/1.0/$more_information" | jq .)
-        #echo $more_information
-        curl -s "https://services.nvd.nist.gov/rest/json/cve/1.0/$more_information" | jq . > test_extrap_more_info.txt
-
+        more_information=$(curl -s "https://services.nvd.nist.gov/rest/json/cve/1.0/$more_information" | jq . > test_extrap_more_info.txt)
+        
         
     fi
-
+JSON_Parse
 }
-#JSON_cve_information_dump
+
 
 JSON_Parse(){
 CVE_ID=$(cat "test_extrap_more_info.txt" | jq .result.CVE_Items | jq .[0].cve.CVE_data_meta.ID | sed 's/"//g')
@@ -113,9 +122,13 @@ lastModifiedDate=$(cat "test_extrap_more_info.txt" | jq .result.CVE_Items | jq .
 
 echo "$CVE_ID-->$CVE_Assigner-->$CVE_CWE-->$impact_vectorString-->$impact_attackVector-->$impact_attackComplexity-->$impact_privilegesRequired-->$impact_userInteraction-->$impact_confidentialityImpact-->$impact_integrityImpact-->$impact_availabilityImpact-->$baseSeverity-->$publishedDate-->$lastModifiedDate-->$CVE_description" > JSON_parsed.txt
 
-#-->$CVE_description-->$CVE_refs
+gawked
+
 }
-JSON_Parse
+
+
+
+gawked(){
 
 gawk 'BEGIN {FS = "-->" ; OFS = "\t"} {print $1,$2,$3,$12,$4"\n"}
 {print "Description:\n"$15"\n"}
@@ -129,3 +142,15 @@ gawk 'BEGIN {FS = "-->" ; OFS = "\t"} {print $1,$2,$3,$12,$4"\n"}
 {print "Published = " $13} 
 {print "Last Modified = " $14}' JSON_parsed.txt
 
+clean_up
+
+}
+
+clean_up(){
+    rm 'output.txt'
+    rm 'JSON_parsed.txt'
+    rm 'test_extrap_more_info.txt'
+
+}
+
+website_dump
