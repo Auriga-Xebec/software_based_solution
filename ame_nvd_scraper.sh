@@ -76,7 +76,7 @@ cve_more_information(){
     18 | ${cleaned_CVE[18]} ) more_information=(${cleaned_CVE[18]}) ;;
     19 | ${cleaned_CVE[19]} )  more_information=(${cleaned_CVE[19]}) ;;
     CVE-[0-9]*-[0-9]*)  more_information=($selection) ;;
-    * )  initial_format_records ;;
+    * )  bash Menu_SBS.sh ;;
 
     esac
 
