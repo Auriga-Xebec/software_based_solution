@@ -55,30 +55,13 @@ cve_more_information(){
      read -p "Please enter a number for further information or ENTER to exit: " selection
 
     case "$selection" in
-    0 | ${cleaned_CVE[0]} ) more_information=(${cleaned_CVE[0]}) ;;
-    1 | ${cleaned_CVE[1]} ) more_information=(${cleaned_CVE[1]}) ;;
-    2 | ${cleaned_CVE[2]} ) more_information=(${cleaned_CVE[2]}) ;;
-    3 | ${cleaned_CVE[3]} ) more_information=(${cleaned_CVE[3]}) ;;
-    4 | ${cleaned_CVE[4]} ) more_information=(${cleaned_CVE[4]}) ;;
-    5 | ${cleaned_CVE[5]} ) more_information=(${cleaned_CVE[5]}) ;;
-    6 | ${cleaned_CVE[6]} ) more_information=(${cleaned_CVE[6]}) ;;
-    7 | ${cleaned_CVE[7]} ) more_information=(${cleaned_CVE[7]}) ;;
-    8 | ${cleaned_CVE[8]} ) more_information=(${cleaned_CVE[8]}) ;;
-    9 | ${cleaned_CVE[9]} ) more_information=(${cleaned_CVE[9]}) ;;
-    10 | ${cleaned_CVE[10]} ) more_information=(${cleaned_CVE[10]}) ;;
-    11 | ${cleaned_CVE[11]} ) more_information=(${cleaned_CVE[11]}) ;;
-    12 | ${cleaned_CVE[12]} ) more_information=(${cleaned_CVE[12]}) ;;
-    13 | ${cleaned_CVE[13]} ) more_information=(${cleaned_CVE[13]}) ;;
-    14 | ${cleaned_CVE[14]} ) more_information=(${cleaned_CVE[14]}) ;;
-    15 | ${cleaned_CVE[15]} ) more_information=(${cleaned_CVE[15]}) ;;
-    16 | ${cleaned_CVE[16]} ) more_information=(${cleaned_CVE[16]}) ;;
-    17 | ${cleaned_CVE[17]} ) more_information=(${cleaned_CVE[17]}) ;;
-    18 | ${cleaned_CVE[18]} ) more_information=(${cleaned_CVE[18]}) ;;
-    19 | ${cleaned_CVE[19]} )  more_information=(${cleaned_CVE[19]}) ;;
+
+    1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 ) more_information=(${cleaned_CVE[$selection]}) ;;
     CVE-[0-9]*-[0-9]*)  more_information=($selection) ;;
     * )  bash Menu_SBS.sh ;;
 
     esac
+
 
 JSON_cve_information_dump
 
