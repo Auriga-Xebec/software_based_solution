@@ -54,18 +54,13 @@ cve_more_information(){
     
      read -p "Please enter a number for further information or ENTER to exit: " selection
 
-    case "$selection" in
+    if (( $selection <= 19 )); then
+        more_information=(${cleaned_CVE[$selection]})
+    else
+        bash Menu_SBS.sh
+    fi
 
-    1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 ) more_information=(${cleaned_CVE[$selection]}) ;;
-    CVE-[0-9]*-[0-9]*)  more_information=($selection) ;;
-    * )  bash Menu_SBS.sh ;;
-
-    esac
-
-
-JSON_cve_information_dump
-
-
+    JSON_cve_information_dump
 }
 
 JSON_cve_information_dump(){

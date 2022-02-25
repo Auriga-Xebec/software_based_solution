@@ -45,8 +45,10 @@ gawked
 
 
 gawked(){
+clear
+gawk 'BEGIN {RS = "" ; FS = "\n" ; OFS = "\t"} 
 
-gawk 'BEGIN {RS = "" ; FS = "\n" ; OFS = "\t"} {print $1,$2,$3,$12,$4"\n"}
+{print "\n"$1,$2,$3,$12,$4"\n"}
 {print "Description:\n"$15"\n"}
 {print "Attack vector = " $5}
 {print "Attack complexity = " $6}
