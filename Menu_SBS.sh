@@ -19,7 +19,7 @@ case "$selection" in
         bash ame_nvd_scraper.sh
     ;;
     3 )
-        echo "Pleas"
+       bash search_CVE_API.sh
     ;;
     4 )
         echo "Exit"
