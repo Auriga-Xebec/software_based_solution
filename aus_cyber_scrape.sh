@@ -1,5 +1,7 @@
 #!/bin/bash
 
+### 202205291739 added chaining of sed commands ###sed 's/.*y">//g; s/<\/p>//g'### instead of sed 's/.*y">//g' | sed 's/<\/p>//g' 17 - 19
+
 ### can I save this to a variable then call grep on it, to save the unessasary use of files, or maybe use a tempoary file.
 raw_html=$(curl "https://www.cyber.gov.au/acsc/view-all-content/alerts")
 
@@ -12,9 +14,9 @@ IFS_BAK=${IFS}
 ### change the defualt field separator to a newline
 IFS="
 "
-alert_summary=($(echo "$raw_html" | grep   "<p class=\"acsc-summary\">" | sed 's/.*y">//g' | sed 's/<\/p>//g')) ### Summary of the alert.
-alert_elaboration=($(echo "$raw_html" | grep   "<p class=\"acsc-title\">" | sed 's/.*e">//g' | sed 's/<\/p>//g'))
-alert_elaboration_url=($(echo "$raw_html" | grep   "<p class=\"acsc-title\">" | sed 's/.*e">//g' | sed 's/<\/p>//g' | sed 's/ /-/g'))
+alert_summary=($(echo "$raw_html" | grep   "<p class=\"acsc-summary\">" | sed 's/.*y">//g; s/<\/p>//g')) ### Summary of the alert.
+alert_elaboration=($(echo "$raw_html" | grep   "<p class=\"acsc-title\">" | sed 's/.*e">//g; s/<\/p>//g')) ### Elaboration of event
+alert_elaboration_url=($(echo "$raw_html" | grep   "<p class=\"acsc-title\">" | sed 's/.*e">//g; s/<\/p>//g; s/ /-/g')) ### URL of event
 
 ### with all of the indexes in the array alert date do, sub in the index and change the values of the severity to include a colour
 for x in "${!alert_date[@]}"; do
